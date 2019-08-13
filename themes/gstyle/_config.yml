@@ -1,0 +1,33 @@
+# main menu navigation
+menu:
+  home: /
+  archives: /archives
+  about: /about
+
+# Miscelaneous
+favicon: /favicon.ico
+
+show_post_category: true
+show_post_tags: true
+
+active_nav: false # show active status on nav menu
+
+sidebar: true # whether to show the sidebar
+widgets:
+  - recent_posts
+  - category
+  - tag
+  # - tagcloud
+  # - archive
+  - links
+links:
+  - title: "GitHub"
+    url: https://github.com/xindubawukong
+
+# disqus_shortname: wayou
+# duoshuo_shortname: wayouliu
+#site statistic
+google_analytics:  UA-145602629-1
+baidu_analytics: 
+
+
