@@ -98,4 +98,4 @@ Return m
 ```
 看完大概就能明白，这个算法只能做找majority这么一件事情，并且如果没有majority它也会返回一个值，需要再check一下结果是不是majority。
 
-这个题正好是要找majority。不过，我没怎么想清楚他们是怎么用线段树维护这个东西的。<a href="https://leetcode.com/problems/online-majority-element-in-subarray/discuss/358338/SegTree-C%2B%2B-O(lg2)">他们的代码</a>写的我觉得有点问题，但是竟然能过。这种方法的时间复杂度是O($n\log_2^2{n}$)，实际跑起来比我的做法还要慢一些。
+这个题正好是要找majority。不过，我没怎么想清楚他们是怎么用线段树维护这个东西的。<a href="https://leetcode.com/problems/online-majority-element-in-subarray/discuss/358338/SegTree-C%2B%2B-O(lg2)">他们的代码</a>写的我觉得有点问题，但是竟然能过。这种方法的时间复杂度是O($n\log_{2}^{2}{n}$)，实际跑起来比我的做法还要慢一些。
