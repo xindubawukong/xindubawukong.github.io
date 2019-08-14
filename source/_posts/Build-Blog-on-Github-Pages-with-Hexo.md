@@ -13,6 +13,8 @@ tags:
 
 <https://github.com/xindubawukong/xindubawukong.github.io>
 
+This repo only contains static html files.
+
 
 
 ## Whole Hexo Blog Repository
@@ -32,4 +34,6 @@ You can fork this to build a blog yourself.
 <https://github.com/wayou/hexo-theme-gstyle>
 
 <https://zhuanlan.zhihu.com/p/26625249>
+
+图床：https://postimages.org/
 
