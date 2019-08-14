@@ -6,6 +6,7 @@ categories:
 - Technology
 tags:
 - github
+- hexo
 ---
 
 ## Blog Repository
@@ -16,14 +17,19 @@ tags:
 
 ## Whole Hexo Blog Repository
 
+<https://github.com/xindubawukong/xindubawukong_blog>
 
+You can fork this to build a blog yourself.
 
 
 
 ## References
 
-<https://github.com/hexojs/hexo>
+<https://pages.github.com/>
+
+<https://hexo.io/>
 
 <https://github.com/wayou/hexo-theme-gstyle>
 
 <https://zhuanlan.zhihu.com/p/26625249>
+
