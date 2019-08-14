@@ -36,3 +36,5 @@ You can fork this to build a blog yourself.
 
 图床：https://postimages.org/
 
+markdown公式渲染：https://zhuanlan.zhihu.com/p/36302775
+
