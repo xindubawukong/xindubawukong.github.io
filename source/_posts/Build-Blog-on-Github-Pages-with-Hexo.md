@@ -12,7 +12,7 @@ tags:
 
 <https://github.com/xindubawukong/xindubawukong.github.io>
 
-This repo only contains static html files.
+This repo only contains static html files. The comments function of the blog is based on the issues of this repo.
 
 
 
