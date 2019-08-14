@@ -38,3 +38,4 @@ You can fork this to build a blog yourself.
 
 markdown公式渲染：https://zhuanlan.zhihu.com/p/36302775
 
+评论功能：https://github.com/utterance/utterances
