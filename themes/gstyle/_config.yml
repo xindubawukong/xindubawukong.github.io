@@ -31,3 +31,5 @@ google_analytics:  UA-145602629-1
 baidu_analytics: 
 
 
+markdown: kramdown
+
