@@ -20,7 +20,18 @@
             <title>
                 <% if (title){ %><%= title %> | <% } %><%= config.title %>
             </title>
+            <!-- Added by dxy -->
             <meta name="google-site-verification" content="DlCxDt1-Nu99LNLZIgBqdKf9RIJoxAxxUklEydSefKA" />
+            <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+            <script type="text/x-mathjax-config">
+                MathJax.Hub.Config({
+                    tex2jax: {
+                    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                    inlineMath: [['$','$']]
+                    }
+                });
+            </script>
+            <!-- Added by dxy -->
             <meta content="width=device-width, initial-scale=1" name="viewport">
             <meta name="theme-color" content="#4184f3">
             <% if (theme.rss){ %>
