@@ -17,4 +17,4 @@ tags:
 
 有一些Google应用不能通过国区的Play Store账号下载，比如Google Drive，Google Docs等。可以参考 https://www.zhihu.com/question/21999528/answer/447913645 切换地区。
 ## 后续
-后面装sim卡，恢复微信备份之类的就没必要写了。全面屏真的爽。而且还支持快充，3000块钱也值了。iphone留着当备用机了。
+后面装sim卡，恢复微信备份之类的就没必要写了。恢复备份需要电脑和手机连同一wifi，但是不知为什么我连公司的GoogleGuestPSK不行，最后用原来的手机开了个热点才备份好的。全面屏真的爽。而且还支持快充，3000块钱也值了。iphone留着当备用机了。
