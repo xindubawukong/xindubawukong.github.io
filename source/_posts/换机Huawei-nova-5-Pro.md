@@ -9,7 +9,7 @@ tags:
 
 今天买了一部新的华为nova 5 pro，换掉了用了三年的iphone 6s plus。
 ## 搭梯子
-拿到手机后，先把不需要的能卸载的app全都卸载，华为助手之类的全部禁用。然后开始搭梯子。我用的是自己配的shadowsocks，可以到 https://github.com/shadowsocks/shadowsocks-android 下载。服务器是之前在 https://www.hostwinds.com/ 租的。配置好后确保能通过浏览器访问 www.google.com 即可。
+拿到手机后，先把不需要的能卸载的app全都卸载，华为助手之类的全部禁用。然后开始搭梯子。我用的是自己配的shadowsocks，可以到 https://github.com/shadowsocks/shadowsocks-android 下载。shadowsocks服务器端搭建方法可参考 https://www.cnblogs.com/iStu/p/9992535.html 。服务器是之前在 https://www.hostwinds.com/ 租的。配置好后确保能通过浏览器访问Google即可。
 ## 安装谷歌服务框架
 国产Android手机上默认都不会预装谷歌服务框架。对于现在还在Google实习的我来说没有Google怎么行呢。安装谷歌服务框架可以参考：https://www.zhihu.com/question/333903896/answer/761587221
 
