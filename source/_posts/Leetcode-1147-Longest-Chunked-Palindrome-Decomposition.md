@@ -5,6 +5,7 @@ date: 2019-08-15 01:59:36
 categories:
 - Algorithm
 tags:
+- leetcode
 ---
 ## 题目
 https://leetcode.com/problems/longest-chunked-palindrome-decomposition/
