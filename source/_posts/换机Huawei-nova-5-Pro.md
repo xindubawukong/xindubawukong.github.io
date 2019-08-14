@@ -3,8 +3,6 @@ title: 换机Huawei nova 5 Pro
 date: 2019-08-14 16:27:47
 categories:
 - Technology
-tags:
-- phone
 ---
 
 今天买了一部新的华为nova 5 pro，换掉了用了三年的iphone 6s plus。

@@ -1,9 +1,5 @@
 ---
 title: Hello World
-categories:
-- Test
-tags:
-- test
 ---
 大家好！测试图片：
 

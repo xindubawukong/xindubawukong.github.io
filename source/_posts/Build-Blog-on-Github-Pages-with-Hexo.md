@@ -6,7 +6,6 @@ categories:
 - Technology
 tags:
 - github
-- hexo
 ---
 
 ## Blog Repository
