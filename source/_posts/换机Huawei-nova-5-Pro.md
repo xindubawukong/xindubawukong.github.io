@@ -1,6 +1,5 @@
 ---
 title: 换机Huawei nova 5 Pro
-toc: true
 date: 2019-08-14 16:27:47
 categories:
 - Technology

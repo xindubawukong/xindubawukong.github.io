@@ -1,6 +1,5 @@
 ---
 title: Collection of Movies I Have Watched
-toc: true
 date: 2019-08-17 02:36:03
 categories:
 - Others

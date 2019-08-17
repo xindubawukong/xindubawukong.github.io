@@ -1,6 +1,5 @@
 ---
 title: BZOJ AC代码
-toc: true
 date: 2019-08-17 18:59:22
 categories:
 - Others

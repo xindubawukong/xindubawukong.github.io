@@ -1,6 +1,5 @@
 ---
 title: Leetcode 1125. Smallest Sufficient Team
-toc: true
 date: 2019-08-16 20:25:32
 categories:
 - Algorithm

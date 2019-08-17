@@ -1,6 +1,5 @@
 ---
 title: Leetcode 1157. Online Majority Element In Subarray
-toc: true
 date: 2019-08-14 23:50:41
 categories:
 - Algorithm

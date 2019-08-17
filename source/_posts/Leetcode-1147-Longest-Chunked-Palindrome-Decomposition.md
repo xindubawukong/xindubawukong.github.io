@@ -1,6 +1,5 @@
 ---
 title: Leetcode 1147. Longest Chunked Palindrome Decomposition
-toc: true
 date: 2019-08-15 01:59:36
 categories:
 - Algorithm
