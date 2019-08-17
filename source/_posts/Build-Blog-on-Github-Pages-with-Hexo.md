@@ -10,7 +10,7 @@ tags:
 
 ## Blog Repository
 
-<https://github.com/xindubawukong/xindubawukong.github.io>
+https://github.com/xindubawukong/xindubawukong.github.io
 
 This repo only contains static html files. The comments function of the blog is based on the issues of this repo.
 
@@ -18,7 +18,7 @@ This repo only contains static html files. The comments function of the blog is 
 
 ## Whole Hexo Blog Repository
 
-<https://github.com/xindubawukong/xindubawukong_blog>
+https://github.com/xindubawukong/xindubawukong_blog
 
 You can fork this to build a blog yourself.
 
@@ -26,13 +26,15 @@ You can fork this to build a blog yourself.
 
 ## References
 
-<https://pages.github.com/>
+https://pages.github.com/
 
-<https://hexo.io/>
+https://hexo.io/
 
-<https://github.com/wayou/hexo-theme-gstyle>
+https://github.com/wayou/hexo-theme-gstyle
 
-<https://zhuanlan.zhihu.com/p/26625249>
+https://zhuanlan.zhihu.com/p/26625249
+
+http://menuet.xyz/technology/tool/Hexo%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
 
 图床：https://postimages.org/
 
