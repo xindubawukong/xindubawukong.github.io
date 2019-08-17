@@ -2,7 +2,7 @@
 title: BZOJ AC代码
 date: 2019-08-17 18:59:22
 categories:
-- Algorithms
+- Algorithm
 tags:
 ---
 我之前把在<a href="https://www.lydsy.com/JudgeOnline/">BZOJ</a>上的密码忘了，最近又找管理员要了一下。不过会员早就没了，有一些题看不了了。
