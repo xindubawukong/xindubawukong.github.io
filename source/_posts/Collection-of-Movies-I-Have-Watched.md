@@ -97,7 +97,7 @@ This is a list of the movies I have watched.
 
 <a href="https://zh.wikipedia.org/wiki/%E9%87%91%E9%8C%A2%E5%B8%9D%E5%9C%8B">金钱帝国</a>
 
-<a href="https://en.wikipedia.org/wiki/The_Godfather">教父</a>
+<a href="https://en.wikipedia.org/wiki/The_Godfather">教父（The Godfather）</a>
 
 <a href="https://zh.wikipedia.org/wiki/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B">警察故事</a>
 
