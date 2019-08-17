@@ -27,6 +27,12 @@ This is a list of the movies I have watched.
 
 <a href="https://zh.wikipedia.org/wiki/%E5%AE%9D%E8%B4%9D%E8%AE%A1%E5%88%92">宝贝计划</a>
 
+<a href="https://en.wikipedia.org/wiki/Whiplash_(2014_film)">爆裂鼓手（Whiplash）</a>
+
+### C
+
+<a href="https://en.wikipedia.org/wiki/The_Truman_Show">楚门的世界（The Truman Show）</a>
+
 ### D
 
 <a href="https://en.wikipedia.org/wiki/Dunkirk_(2017_film)">敦刻尔克（Dunkirk）</a>
@@ -39,9 +45,15 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Jaws_(film)">大白鲨（Jaws）</a>
 
+<a href="https://en.wikipedia.org/wiki/Inception">盗梦空间（Inception）</a>
+
+<a href="https://en.wikipedia.org/wiki/The_Pursuit_of_Happyness">当幸福来敲门（The Pursuit of Happyness）</a>
+
 ### F
 
 <a href="https://en.wikipedia.org/wiki/Avengers:_Infinity_War">复仇者联盟3：无限战争（Avengers: Infinity War）</a>
+
+<a href="https://en.wikipedia.org/wiki/Homeless_to_Harvard:_The_Liz_Murray_Story">风雨哈佛路（Homeless to Harvard: The Liz Murray Story）</a>
 
 ### H
 
@@ -91,15 +103,25 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/The_Wave_(2008_film)">浪潮（德语：Die Welle）</a>
 
+<a href="https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)">乱世佳人（Gone with the Wind）</a>
+
 ### M
 
 <a href="https://en.wikipedia.org/wiki/Life_Is_Beautiful">美丽人生（意大利语：La vita è bella）</a>
+
+<a href="https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(2017_film)">美女与野兽（Beauty and the Beast）</a>
 
 ### N
 
 <a href="https://zh.wikipedia.org/wiki/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96">哪吒之魔童降世</a>
 
 <a href="https://en.wikipedia.org/wiki/Your_Name">你的名字</a>
+
+<a href="https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia:_The_Lion,_the_Witch_and_the_Wardrobe">纳尼亚传奇（The Chronicles of Narnia）</a>
+
+### Q
+
+<a href="https://en.wikipedia.org/wiki/Spirited_Away">千与千寻</a>
 
 ### R
 
@@ -125,9 +147,19 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Titanic_(1997_film)">泰坦尼克号（Titanic）</a>
 
+<a href="https://en.wikipedia.org/wiki/Ready_Player_One_(film)">头号玩家（Ready Player One）</a>
+
+### V
+
+<a href="https://en.wikipedia.org/wiki/V_for_Vendetta_(film)">V字仇杀队（V for Vendetta）</a>
+
 ### W
 
 <a href="https://zh.wikipedia.org/wiki/%E6%88%91%E4%B8%8D%E6%98%AF%E8%8D%AF%E7%A5%9E">我不是药神</a>
+
+<a href="https://en.wikipedia.org/wiki/Ring_(film)">午夜凶铃</a>
+
+<a href="https://en.wikipedia.org/wiki/Ring_2">午夜凶铃2：贞子缠身</a>
 
 ### X
 
@@ -142,6 +174,12 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/War_for_the_Planet_of_the_Apes">猩球崛起3：终极之战（War for the Planet of the Apes）</a>
 
 <a href="https://en.wikipedia.org/wiki/The_Shawshank_Redemption">肖申克的救赎（The Shawshank Redemption）</a>
+
+<a href="https://en.wikipedia.org/wiki/Mal%C3%A8na">西西里的美丽传说</a>
+
+<a href="https://en.wikipedia.org/wiki/Interstellar_(film)">星际穿越（Interstellar）</a>
+
+<a href="https://en.wikipedia.org/wiki/Schindler%27s_List">辛德勒的名单（Schindler's List）</a>
 
 ### Y
 
