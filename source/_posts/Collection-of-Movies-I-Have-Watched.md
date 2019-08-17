@@ -53,6 +53,10 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Independence_Day:_Resurgence">独立日2：卷土重来（Independence Day: Resurgence）</a>
 
+<a href="https://en.wikipedia.org/wiki/Mission:_Impossible_%E2%80%93_Ghost_Protocol">碟中谍4：幽灵协议（Mission: Impossible – Ghost Protocol）</a>
+
+<a href="https://en.wikipedia.org/wiki/Mission:_Impossible_%E2%80%93_Rogue_Nation">碟中谍5：神秘国度（Mission: Impossible – Rogue Nation）</a>
+
 <a href="https://en.wikipedia.org/wiki/Mission:_Impossible_%E2%80%93_Fallout">碟中谍6：全面瓦解（Mission: Impossible – Fallout）</a>
 
 <a href="https://en.wikipedia.org/wiki/Jaws_(film)">大白鲨（Jaws）</a>
@@ -60,6 +64,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/Inception">盗梦空间（Inception）</a>
 
 <a href="https://en.wikipedia.org/wiki/The_Pursuit_of_Happyness">当幸福来敲门（The Pursuit of Happyness）</a>
+
+<a href="https://en.wikipedia.org/wiki/Downfall_(2004_film)">帝国的毁灭（德语：Der Untergang）</a>
 
 ### F
 
@@ -82,6 +88,10 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/Mars_Attacks!">火星人玩转地球（Mars Attacks!）</a>
 
 <a href="https://en.wikipedia.org/wiki/Cast_Away">荒岛余生（Cast Away）</a>
+
+<a href="https://en.wikipedia.org/wiki/Event_Horizon_(film)">黑洞表面（Event Horizon）</a>
+
+<a href="https://en.wikipedia.org/wiki/Tora!_Tora!_Tora!">虎！虎！虎！</a>
 
 ### J
 
@@ -108,6 +118,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/28_Days_Later">惊变28天（28 Days Later）</a>
 
 <a href="https://en.wikipedia.org/wiki/King_Kong_(2005_film)">金刚（King Kong）</a>
+
+<a href="https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo_(2002_film)">基督山伯爵（The Count of Monte Cristo）</a>
 
 ### K
 
@@ -139,6 +151,10 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia:_The_Lion,_the_Witch_and_the_Wardrobe">纳尼亚传奇（The Chronicles of Narnia）</a>
 
+### P
+
+<a href="https://en.wikipedia.org/wiki/Slumdog_Millionaire">贫民窟的百万富翁（Slumdog Millionaire）</a>
+
 ### Q
 
 <a href="https://en.wikipedia.org/wiki/Spirited_Away">千与千寻</a>
@@ -146,6 +162,8 @@ This is a list of the movies I have watched.
 ### R
 
 <a href="https://en.wikipedia.org/wiki/Silenced_(film)">熔炉（Silenced）</a>
+
+<a href="https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%86%8D%E5%9B%A7%E9%80%94%E4%B9%8B%E6%B3%B0%E5%9B%A7">人再囧途之泰囧</a>
 
 ### S
 
@@ -163,11 +181,29 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Dead_Poets_Society">死亡诗社（Dead Poets Society）</a>
 
+<a href="https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)">速度与激情（The Fast and the Furious）</a>
+
+<a href="https://en.wikipedia.org/wiki/2_Fast_2_Furious">速度与激情2（2 Fast 2 Furious）</a>
+
+<a href="https://en.wikipedia.org/wiki/The_Fast_and_the_Furious:_Tokyo_Drift">速度与激情3：东京飘移（The Fast and the Furious: Tokyo Drift）</a>
+
+<a href="https://en.wikipedia.org/wiki/Fast_%26_Furious_(2009_film)">速度与激情4（Fast & Furious）</a>
+
+<a href="https://en.wikipedia.org/wiki/Fast_Five">速度与激情5（Fast Five）</a>
+
+<a href="https://en.wikipedia.org/wiki/Fast_%26_Furious_6">速度与激情6（Fast & Furious 6）</a>
+
+<a href="https://en.wikipedia.org/wiki/Furious_7">速度与激情7（Fast & Furious 7）</a>
+
+<a href="https://en.wikipedia.org/wiki/The_Fate_of_the_Furious">速度与激情8（The Fate of the Furious）</a>
+
 ### T
 
 <a href="https://en.wikipedia.org/wiki/Titanic_(1997_film)">泰坦尼克号（Titanic）</a>
 
 <a href="https://en.wikipedia.org/wiki/Ready_Player_One_(film)">头号玩家（Ready Player One）</a>
+
+<a href="https://en.wikipedia.org/wiki/The_Island_(2005_film)">逃出克隆岛（The Island）</a>
 
 ### V
 
@@ -180,6 +216,10 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/Ring_(film)">午夜凶铃</a>
 
 <a href="https://en.wikipedia.org/wiki/Ring_2">午夜凶铃2：贞子缠身</a>
+
+<a href="https://en.wikipedia.org/wiki/Searching_(film)">网络迷踪（Searching）</a>
+
+<a href="https://zh.wikipedia.org/wiki/%E6%88%91%E4%B8%8D%E6%98%AF%E6%BD%98%E9%87%91%E8%8E%B2_(%E7%94%B5%E5%BD%B1)">我不是潘金莲</a>
 
 ### X
 
@@ -213,6 +253,8 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Alien_Resurrection">异形4（Alien Resurrection）</a>
 
+<a href="https://en.wikipedia.org/wiki/Goal!_(film)">一球成名（Goal!）</a>
+
 ### Z
 
 <a href="https://zh.wikipedia.org/wiki/%E6%88%B0%E7%8B%BC2">战狼2</a>
@@ -228,6 +270,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/Terminator_3:_Rise_of_the_Machines">终结者3：机器觉醒（Terminator 3：Rise of the Machines）</a>
 
 <a href="https://en.wikipedia.org/wiki/Terminator_Salvation">终结者2018（Terminator Salvation）</a>
+
+<a href="https://en.wikipedia.org/wiki/Jurassic_Park_(film)">侏罗纪公园（Jurassic Park）</a>
 
 ------
 ## 电视剧
