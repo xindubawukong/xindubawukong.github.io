@@ -5,11 +5,13 @@ categories:
 - Others
 tags:
 ---
-This is a list of the movies I have watched. 
+This is a list of the movies I have watched.
 
 总结一下。不然都忘了。按汉语拼音排序。
 
 ------
+## 电影
+
 <a href="https://en.wikipedia.org/wiki/2012_(film)">2012</a>
 
 ### A
@@ -17,6 +19,8 @@ This is a list of the movies I have watched.
 <a href="https://zh.wikipedia.org/wiki/A%E8%A8%88%E5%8A%83">A计划</a>
 
 <a href="https://zh.wikipedia.org/zh-sg/A%E8%A8%88%E5%8A%83%E7%BA%8C%E9%9B%86">A计划续集</a>
+
+<a href="https://en.wikipedia.org/wiki/La_La_Land_(film)">爱乐之城（La La Land）</a>
 
 <a href="https://en.wikipedia.org/wiki/Forrest_Gump">阿甘正传（Forrest Gump）</a>
 
@@ -29,11 +33,19 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Whiplash_(2014_film)">爆裂鼓手（Whiplash）</a>
 
+<a href="https://en.wikipedia.org/wiki/Transformers_(film)">变形金刚（Transformers）</a>
+
+<a href="https://en.wikipedia.org/wiki/Transformers:_Revenge_of_the_Fallen">变形金刚2：卷土重来（Transformers: Revenge of the Fallen）</a>
+
+<a href="https://en.wikipedia.org/wiki/Transformers:_Dark_of_the_Moon">变形金刚3：月黑之时（Transformers: Dark of the Moon）</a>
+
 ### C
 
 <a href="https://en.wikipedia.org/wiki/The_Truman_Show">楚门的世界（The Truman Show）</a>
 
 ### D
+
+<a href="https://en.wikipedia.org/wiki/Gravity_(2013_film)">地心引力（Gravity）</a>
 
 <a href="https://en.wikipedia.org/wiki/Dunkirk_(2017_film)">敦刻尔克（Dunkirk）</a>
 
@@ -67,6 +79,10 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/The_Day_After_Tomorrow">后天（The Day After Tomorrow）</a>
 
+<a href="https://en.wikipedia.org/wiki/Mars_Attacks!">火星人玩转地球（Mars Attacks!）</a>
+
+<a href="https://en.wikipedia.org/wiki/Cast_Away">荒岛余生（Cast Away）</a>
+
 ### J
 
 <a href="https://zh.wikipedia.org/wiki/%E9%87%91%E9%8C%A2%E5%B8%9D%E5%9C%8B">金钱帝国</a>
@@ -91,6 +107,8 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/28_Days_Later">惊变28天（28 Days Later）</a>
 
+<a href="https://en.wikipedia.org/wiki/King_Kong_(2005_film)">金刚（King Kong）</a>
+
 ### K
 
 <a href="https://en.wikipedia.org/wiki/Witness_for_the_Prosecution_(1957_film)">控方证人（Witness for the Prosecution）</a>
@@ -104,6 +122,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/The_Wave_(2008_film)">浪潮（德语：Die Welle）</a>
 
 <a href="https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)">乱世佳人（Gone with the Wind）</a>
+
+<a href="https://movie.douban.com/subject/26916229/">镰仓物语</a>
 
 ### M
 
@@ -185,6 +205,14 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/The_Foreigner_(2017_film)">英伦对决（The Foreigner）</a>
 
+<a href="https://en.wikipedia.org/wiki/Alien_(film)">异形（Alien）</a>
+
+<a href="https://en.wikipedia.org/wiki/Aliens_(film)">异形2（Aliens）</a>
+
+<a href="https://en.wikipedia.org/wiki/Alien_3">异形3（Alien 3）</a>
+
+<a href="https://en.wikipedia.org/wiki/Alien_Resurrection">异形4（Alien Resurrection）</a>
+
 ### Z
 
 <a href="https://zh.wikipedia.org/wiki/%E6%88%B0%E7%8B%BC2">战狼2</a>
@@ -200,6 +228,15 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/Terminator_3:_Rise_of_the_Machines">终结者3：机器觉醒（Terminator 3：Rise of the Machines）</a>
 
 <a href="https://en.wikipedia.org/wiki/Terminator_Salvation">终结者2018（Terminator Salvation）</a>
+
+------
+## 电视剧
+
+<a href="https://en.wikipedia.org/wiki/Sherlock_(TV_series)">神探夏洛克（Sherlock）</a>
+
+<a href="https://en.wikipedia.org/wiki/Unnatural_(TV_series)">非自然死亡（Unnatural）</a>
+
+<a href="https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)">行尸走肉（The Walking Dead）</a>
 
 ------
 
