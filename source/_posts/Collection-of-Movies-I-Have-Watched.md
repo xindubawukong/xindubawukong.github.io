@@ -10,6 +10,7 @@ This is a list of the movies I have watched.
 总结一下。不然都忘了。按汉语拼音排序。
 
 ------
+<a href="https://en.wikipedia.org/wiki/2012_(film)">2012</a>
 
 ### A
 
@@ -19,8 +20,12 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Forrest_Gump">阿甘正传（Forrest Gump）</a>
 
+<a href="https://en.wikipedia.org/wiki/Avatar_(2009_film)">阿凡达（Avatar）</a>
+
 ### B
 <a href="https://zh.wikipedia.org/wiki/白蛇：缘起">白蛇：缘起</a>
+
+<a href="https://zh.wikipedia.org/wiki/%E5%AE%9D%E8%B4%9D%E8%AE%A1%E5%88%92">宝贝计划</a>
 
 ### D
 
@@ -31,6 +36,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/Independence_Day:_Resurgence">独立日2：卷土重来（Independence Day: Resurgence）</a>
 
 <a href="https://en.wikipedia.org/wiki/Mission:_Impossible_%E2%80%93_Fallout">碟中谍6：全面瓦解（Mission: Impossible – Fallout）</a>
+
+<a href="https://en.wikipedia.org/wiki/Jaws_(film)">大白鲨（Jaws）</a>
 
 ### F
 
@@ -43,6 +50,10 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/The_Matrix_Reloaded">黑客帝国2：重装上阵（The Matrix Reloaded）</a>
 
 <a href="https://en.wikipedia.org/wiki/The_Matrix_Revolutions">黑客帝国3：矩阵革命（The Matrix Revolutions）</a>
+
+<a href="https://en.wikipedia.org/wiki/Volcano_(1997_film)">活火熔城（Volcano）</a>
+
+<a href="https://en.wikipedia.org/wiki/The_Day_After_Tomorrow">后天（The Day After Tomorrow）</a>
 
 ### J
 
@@ -66,11 +77,33 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/The_Meg">巨齿鲨（The Meg）</a>
 
+<a href="https://en.wikipedia.org/wiki/28_Days_Later">惊变28天（28 Days Later）</a>
+
+### K
+
+<a href="https://en.wikipedia.org/wiki/Witness_for_the_Prosecution_(1957_film)">控方证人（Witness for the Prosecution）</a>
+
 ### L
 
 <a href="https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83_(%E7%94%B5%E5%BD%B1)">流浪地球</a>
+
+<a href="https://en.wikipedia.org/wiki/Ratatouille_(film)">料理鼠王（Ratatouille）</a>
+
+<a href="https://en.wikipedia.org/wiki/The_Wave_(2008_film)">浪潮（德语：Die Welle）</a>
+
+### M
+
+<a href="https://en.wikipedia.org/wiki/Life_Is_Beautiful">美丽人生（意大利语：La vita è bella）</a>
+
 ### N
+
 <a href="https://zh.wikipedia.org/wiki/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96">哪吒之魔童降世</a>
+
+<a href="https://en.wikipedia.org/wiki/Your_Name">你的名字</a>
+
+### R
+
+<a href="https://en.wikipedia.org/wiki/Silenced_(film)">熔炉（Silenced）</a>
 
 ### S
 
@@ -86,6 +119,12 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Resident_Evil:_The_Final_Chapter">生化危机6：终章（Resident Evil: The Final Chapter）</a>
 
+<a href="https://en.wikipedia.org/wiki/Dead_Poets_Society">死亡诗社（Dead Poets Society）</a>
+
+### T
+
+<a href="https://en.wikipedia.org/wiki/Titanic_(1997_film)">泰坦尼克号（Titanic）</a>
+
 ### W
 
 <a href="https://zh.wikipedia.org/wiki/%E6%88%91%E4%B8%8D%E6%98%AF%E8%8D%AF%E7%A5%9E">我不是药神</a>
@@ -95,6 +134,14 @@ This is a list of the movies I have watched.
 <a href="https://zh.wikipedia.org/wiki/%E8%A5%BF%E8%99%B9%E5%B8%82%E9%A6%96%E5%AF%8C">西虹市首富</a>
 
 <a href="https://zh.wikipedia.org/wiki/%E6%96%B0%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B">新警察故事</a>
+
+<a href="https://en.wikipedia.org/wiki/Rise_of_the_Planet_of_the_Apes">猩球崛起（Rise of the Planet of the Apes）</a>
+
+<a href="https://en.wikipedia.org/wiki/Dawn_of_the_Planet_of_the_Apes">猩球崛起2：黎明之战（Dawn of the Planet of the Apes）</a>
+
+<a href="https://en.wikipedia.org/wiki/War_for_the_Planet_of_the_Apes">猩球崛起3：终极之战（War for the Planet of the Apes）</a>
+
+<a href="https://en.wikipedia.org/wiki/The_Shawshank_Redemption">肖申克的救赎（The Shawshank Redemption）</a>
 
 ### Y
 
@@ -112,7 +159,7 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day">终结者2：审判日（Terminator 2: Judgment Day）</a>
 
-<a href="https://en.wikipedia.org/wiki/Terminator_3:_Rise_of_the_Machines">终结者3（Terminator 3：Rise of the Machines）</a>
+<a href="https://en.wikipedia.org/wiki/Terminator_3:_Rise_of_the_Machines">终结者3：机器觉醒（Terminator 3：Rise of the Machines）</a>
 
 <a href="https://en.wikipedia.org/wiki/Terminator_Salvation">终结者2018（Terminator Salvation）</a>
 
