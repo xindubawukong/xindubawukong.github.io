@@ -36,6 +36,8 @@ https://zhuanlan.zhihu.com/p/26625249
 
 http://menuet.xyz/technology/tool/Hexo%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
 
+主题：https://github.com/wayou/hexo-theme-gstyle
+
 图床：https://postimages.org/
 
 markdown公式渲染：https://zhuanlan.zhihu.com/p/36302775
