@@ -143,6 +143,8 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(2017_film)">美女与野兽（Beauty and the Beast）</a>
 
+<a href="https://zh.wikipedia.org/wiki/%E6%B9%84%E5%85%AC%E6%B2%B3%E8%A1%8C%E5%8A%A8">湄公河行动</a>
+
 ### N
 
 <a href="https://zh.wikipedia.org/wiki/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96">哪吒之魔童降世</a>
@@ -240,6 +242,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/Interstellar_(film)">星际穿越（Interstellar）</a>
 
 <a href="https://en.wikipedia.org/wiki/Schindler%27s_List">辛德勒的名单（Schindler's List）</a>
+
+<a href="https://en.wikipedia.org/wiki/Hacksaw_Ridge">血战钢锯岭（Hacksaw Ridge）</a>
 
 ### Y
 
