@@ -32,7 +32,7 @@ Strong coding ability. Familiar with algorithms and data structures.
 
 ## Work Experience
 
-- Google (PEK office), May 2019 – Autust 2019 (in process)
+- Google (PEK office), May 2019 – August 2019 (in process)
     - Position: machine learning software engineer intern
     - Report to: wenjies@google.com
     - Project: Wikitrust. Detect possible vandalism in Wikipedia pages, in order to improve search experience and remove noisy data for model training. Train tensorflow model to classify vandalism examples. Write special rules for hard examples. Prepare revert data to expand the model to 12 more languages on Wikipedia. Submitted thousands of lines of code to Google internal code repository.
