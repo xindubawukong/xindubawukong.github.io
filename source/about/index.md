@@ -4,6 +4,11 @@ date: 2019-08-13 21:45:01
 ---
 
 This is Xiangyun Ding's blog.
+
+Building of this blog: <a href="https://xindubawukong.github.io/2019/08/13/Build-Blog-on-Github-Pages-with-Hexo/">Build Blog on Github Pages with Hexo</a>.
+
+## About myself
+
 I'm an undergraduate student from <a href="http://www.cs.tsinghua.edu.cn/">Department of Computer Science and Technology, Tsinghua University</a>.
 
 My resume is here: <a href="https://xindubawukong.github.io/resume-en">resume</a>, <a href="https://xindubawukong.github.io/resume-zh">简历</a>.

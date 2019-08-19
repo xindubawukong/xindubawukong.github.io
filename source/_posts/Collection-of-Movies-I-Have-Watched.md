@@ -39,6 +39,10 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Transformers:_Dark_of_the_Moon">变形金刚3：月黑之时（Transformers: Dark of the Moon）</a>
 
+<a href="https://en.wikipedia.org/wiki/Transformers:_Age_of_Extinction">变形金刚4：绝迹重生（Transformers: Age of Extinction）</a>
+
+<a href="https://en.wikipedia.org/wiki/The_Secret_Life_of_Walter_Mitty_(2013_film)">白日梦想家（The Secret Life of Walter Mitty）</a>
+
 ### C
 
 <a href="https://en.wikipedia.org/wiki/The_Truman_Show">楚门的世界（The Truman Show）</a>
@@ -66,6 +70,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/The_Pursuit_of_Happyness">当幸福来敲门（The Pursuit of Happyness）</a>
 
 <a href="https://en.wikipedia.org/wiki/Downfall_(2004_film)">帝国的毁灭（德语：Der Untergang）</a>
+
+<a href="https://zh.wikipedia.org/wiki/%E7%8B%84%E4%BB%81%E5%82%91%E4%B9%8B%E9%80%9A%E5%A4%A9%E5%B8%9D%E5%9C%8B">狄仁杰之通天帝国</a>
 
 ### F
 
@@ -145,6 +151,8 @@ This is a list of the movies I have watched.
 
 <a href="https://zh.wikipedia.org/wiki/%E6%B9%84%E5%85%AC%E6%B2%B3%E8%A1%8C%E5%8A%A8">湄公河行动</a>
 
+<a href="https://en.wikipedia.org/wiki/The_Imitation_Game">模仿游戏（The Imitation Game）</a>
+
 ### N
 
 <a href="https://zh.wikipedia.org/wiki/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96">哪吒之魔童降世</a>
@@ -199,6 +207,8 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/The_Fate_of_the_Furious">速度与激情8（The Fate of the Furious）</a>
 
+<a href="https://en.wikipedia.org/wiki/The_Shining_(film)">闪灵（The Shining）</a>
+
 ### T
 
 <a href="https://en.wikipedia.org/wiki/Titanic_(1997_film)">泰坦尼克号（Titanic）</a>
@@ -206,6 +216,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/Ready_Player_One_(film)">头号玩家（Ready Player One）</a>
 
 <a href="https://en.wikipedia.org/wiki/The_Island_(2005_film)">逃出克隆岛（The Island）</a>
+
+<a href="https://zh.wikipedia.org/wiki/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%882">唐人街探案2</a>
 
 ### V
 
