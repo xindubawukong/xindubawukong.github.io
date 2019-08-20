@@ -57,3 +57,7 @@ TODO: add projects.
 ## Awards and Honors
 
 Silver medal in the 32'th National Olympiad in Informatics (NOI 2015): <a href="http://www.noi.cn/RequireFile.do?fid=GDBMTjQT&attach=n">rewards list</a>.
+
+## Links
+
+<a href="https://github.com/xindubawukong">Github</a>
