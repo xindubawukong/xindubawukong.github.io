@@ -43,3 +43,5 @@ http://menuet.xyz/technology/tool/Hexo%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/
 markdown公式渲染：https://zhuanlan.zhihu.com/p/36302775
 
 评论功能：https://github.com/utterance/utterances
+
+每页显示个数设置：http://www.yuzhewo.com/2015/11/21/Hexo%E7%A8%8B%E5%BA%8Farchive%E9%A1%B5%E9%9D%A2%E6%95%B0%E9%87%8F%E8%AE%BE%E7%BD%AE/

@@ -3,7 +3,7 @@ title: About
 date: 2019-08-13 21:45:01
 ---
 
-This is Xiangyun Ding's blog.
+This is <a href="https://xindubawukong.github.io/">Xiangyun Ding's blog</a>.
 
 Building of this blog: <a href="https://xindubawukong.github.io/2019/08/13/Build-Blog-on-Github-Pages-with-Hexo/">Build Blog on Github Pages with Hexo</a>.
 
