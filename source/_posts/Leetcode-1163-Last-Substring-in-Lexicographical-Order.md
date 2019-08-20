@@ -17,7 +17,7 @@ https://leetcode.com/problems/last-substring-in-lexicographical-order/
 
 首先可以发现，s[l, n-1]的字典序一定比s[l, r]大。因此我们只需在s的n个后缀中找字典许最大的即可。
 
-说到后缀自然我当时想到的是后缀数组。倍增求后缀数组可以参考https://blog.csdn.net/Sunshine_cfbsl/article/details/52190433，时间复杂度O(nlogn)。这种方法我交上去超时了。不过代码还是放一下：
+说到后缀自然我当时想到的是后缀数组。倍增求后缀数组可以参考 https://blog.csdn.net/Sunshine_cfbsl/article/details/52190433 ，时间复杂度O(nlogn)。这种方法我交上去超时了。不过代码还是放一下：
 
 ```C++
 class SuffixArray {
