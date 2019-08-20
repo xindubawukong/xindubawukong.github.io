@@ -81,3 +81,12 @@ deploy:
   type: git
   repo: git@github.com:xindubawukong/xindubawukong.github.io.git
   branch: master
+
+
+archive_generator:
+  per_page: 30  //为0时表示不分页全展示
+  yearly: false  //按年生成归档
+  monthly: false //按月生成归档
+
+tag_generator:
+  per_page: 20
