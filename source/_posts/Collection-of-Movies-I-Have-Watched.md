@@ -209,6 +209,8 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/The_Fate_of_the_Furious">速度与激情8（The Fate of the Furious）</a>
 
+<a href="https://en.wikipedia.org/wiki/Hobbs_%26_Shaw">速度与激情：特别行动（Hobbs & Shaw）</a>
+
 <a href="https://en.wikipedia.org/wiki/The_Shining_(film)">闪灵（The Shining）</a>
 
 ### T
