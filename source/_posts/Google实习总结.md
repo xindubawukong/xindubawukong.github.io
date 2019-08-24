@@ -6,6 +6,35 @@ categories:
 tags:
 - google
 ---
+
 知乎回答：https://www.zhihu.com/question/336859540/answer/761912465
 
-TODO： add details.
+我的Google账号：xiangyunding@google.com，可惜离职了就不能用了。
+
+感谢以下个人/组织：
+
+- host: wenjies，co-host: chaoyuel
+- recruiter：irene, rosy, yun
+- 帮我内推的{TBD}和帮我介绍内推的jzh
+- 帮我review代码，还有其他帮助我的Googler
+- 一起入职的小伙伴们
+- Dataz group
+- Google
+
+## 申请过程
+
+关于正式的招聘流程和最新的招聘信息，请关注：
+
+- 微信公众号：谷歌招聘包打听
+- 知乎：<a href="https://www.zhihu.com/org/googlegu-ge-zhong-guo-xiao-yuan-zhao-pin/activities">Google谷歌中国校园招聘</a>
+- 其他官方消息渠道
+
+TBD
+
+## 实习
+
+TBD
+
+## 总结
+
+TBD

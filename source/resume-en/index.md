@@ -37,7 +37,7 @@ Strong coding ability. Familiar with algorithms and data structures.
 - Google (PEK office), May 2019 – August 2019 (in process)
     - Position: machine learning software engineer intern
     - Report to: wenjies@google.com
-    - Project: Wikitrust. Detect possible vandalism in Wikipedia pages, in order to improve search experience and remove noisy data for model training. Train tensorflow model to classify vandalism examples. Write special rules for hard examples. Prepare revert data to expand the model to 12 more languages on Wikipedia. Submitted thousands of lines of code to Google internal code repository.
+    - Project: Wikitrust. Detect possible vandalism in Wikipedia dataset.
 
 ## Research Experience
 
@@ -48,7 +48,6 @@ Strong coding ability. Familiar with algorithms and data structures.
 - Application of Fast Matrix SVD on Large Recommendation System, January - present.
     - Tsinghua University Initiative Scientific Research Program and DCST Student Academic Training Program.
     - Leader: Wenjian Yu, Associate Professor, Department of Computer Science, Tsinghua University
-    - I have a first author paper submitted in this project. Project details will be added after the result is public.
 
 ## Projects
 

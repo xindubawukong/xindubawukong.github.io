@@ -81,6 +81,10 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/Train_to_Busan">釜山行</a>
 
+### G
+
+<a href="https://zh.wikipedia.org/wiki/%E5%8A%9F%E5%A4%AB_(%E7%94%B5%E5%BD%B1)">功夫</a>
+
 ### H
 
 <a href="https://en.wikipedia.org/wiki/The_Matrix">黑客帝国（The Matrix）</a>
@@ -162,6 +166,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/Your_Name">你的名字</a>
 
 <a href="https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia:_The_Lion,_the_Witch_and_the_Wardrobe">纳尼亚传奇（The Chronicles of Narnia）</a>
+
+<a href="https://en.wikipedia.org/wiki/Eight_Below">南极大冒险（Eight Below）</a>
 
 ### P
 
@@ -274,6 +280,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/Alien_Resurrection">异形4（Alien Resurrection）</a>
 
 <a href="https://en.wikipedia.org/wiki/Goal!_(film)">一球成名（Goal!）</a>
+
+<a href="https://zh.wikipedia.org/wiki/%E4%B8%80%E8%B7%AF%E9%80%86%E9%A3%8E">一路逆风</a>
 
 ### Z
 
