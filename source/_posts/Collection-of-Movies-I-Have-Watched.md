@@ -229,6 +229,8 @@ This is a list of the movies I have watched.
 
 <a href="https://zh.wikipedia.org/wiki/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%882">唐人街探案2</a>
 
+<a href="https://en.wikipedia.org/wiki/Passengers_(2016_film)">太空旅客（Passengers）</a>
+
 ### V
 
 <a href="https://en.wikipedia.org/wiki/V_for_Vendetta_(film)">V字仇杀队（V for Vendetta）</a>
