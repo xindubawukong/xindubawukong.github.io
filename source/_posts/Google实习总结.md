@@ -15,7 +15,7 @@ tags:
 
 - host: wenjies，co-host: chaoyuel
 - recruiter：irene, rosy, yun
-- 帮我内推的{TBD}和帮我介绍内推的jzh
+- 帮我内推的sunyq和帮我介绍内推的jzh
 - 帮我review代码，还有其他帮助我的Googler
 - 一起入职的小伙伴们
 - Dataz group
