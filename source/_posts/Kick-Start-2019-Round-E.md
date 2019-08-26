@@ -10,7 +10,7 @@ tags:
 
 https://codingcompetitions.withgoogle.com/kickstart/archive/2019
 
-这场最后40分钟才想起来参加。。。过了T1，然后T3写错了只过了小数据。太菜了。
+这场最后40分钟才想起来参加。。。过了T1，然后T3写错了只过了小数据。太菜了。这轮的题相对来说很简单，AK的人也不少。
 
 ## T1 Cherries Mesh (9pts, 13pts)
 
