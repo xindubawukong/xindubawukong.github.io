@@ -25,7 +25,7 @@ tags:
 
 关于正式的招聘流程和最新的招聘信息，请关注：
 
-- 微信公众号：谷歌招聘包打听
+- 微信公众号：Google招聘包打听
 - 知乎：<a href="https://www.zhihu.com/org/googlegu-ge-zhong-guo-xiao-yuan-zhao-pin/activities">Google谷歌中国校园招聘</a>
 - 其他官方消息渠道
 
