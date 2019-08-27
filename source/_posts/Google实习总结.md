@@ -33,6 +33,8 @@ TBD
 
 ## 实习
 
+实习项目是wikitrust_revamp，维基百科恶意修改检测。
+
 TBD
 
 ## 总结
