@@ -4,7 +4,7 @@ toc: true
 date: 2019-08-17 02:18:16
 ---
 
-Click here for Chinese version: <a href="https://xindubawukong.github.io/resume-zh/">中文版本简历</a>.
+Click here for Chinese version: <a href="https://xindubawukong.github.io/resume/resume-zh/">中文版本简历</a>.
 
 ## Basic Information
 
