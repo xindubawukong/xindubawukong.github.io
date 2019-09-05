@@ -1,7 +1,6 @@
 ---
 title: Xiangyun Ding
 toc: true
-date: 2019-08-17 02:18:16
 ---
 
 Click here for Chinese version: <a href="https://xindubawukong.github.io/resume/resume-zh/">中文版本简历</a>.
@@ -34,7 +33,7 @@ Strong coding ability. Familiar with algorithms and data structures.
 
 ## Work Experience
 
-- Google (PEK office), May 2019 – August 2019 (in process)
+- Google (PEK office), May 2019 – August 2019
     - Position: machine learning software engineer intern
     - Report to: wenjies@google.com
     - Project: Wikitrust. Detect possible vandalism in Wikipedia dataset.
@@ -48,6 +47,7 @@ Strong coding ability. Familiar with algorithms and data structures.
 - Application of Fast Matrix SVD on Large Recommendation System, January - present.
     - Tsinghua University Initiative Scientific Research Program and DCST Student Academic Training Program.
     - Leader: Wenjian Yu, Associate Professor, Department of Computer Science, Tsinghua University
+    - Designed large network recommendation algorithm based on randomized singular value decomposition. Used SVD in recommendation system based on machine learning methods. Studied on fast and accurate adaptive randomization SVD algorithm for sparse matrix processing and the network recommendation algorithm based on collaborative filtering. Combined the two algorithms to realize the collaborative filtering recommendation algorithm with higher efficiency and larger data processing capacity.
 
 ## Projects
 
@@ -55,7 +55,7 @@ TODO: add projects.
 
 ## Awards and Honors
 
-Silver medal in the 32'th National Olympiad in Informatics (NOI 2015): <a href="http://www.noi.cn/RequireFile.do?fid=GDBMTjQT&attach=n">rewards list</a>.
+Silver medal in the 32'th National Olympiad in Informatics (NOI 2015): <a href="http://www.noi.cn/RequireFile.do?fid=GDBMTjQT&attach=n">Rewards list</a>.
 
 ## Links
 

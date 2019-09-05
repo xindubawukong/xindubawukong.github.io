@@ -50,10 +50,16 @@ Google的申请流程很正规，一步一步很清楚，不过流程也比较�
 
 ## 实习
 
-实习项目是WikiTrust Revamp，维基百科的恶意修改检测。因为签了保密协议，这部分就不详细讲了。
+实习项目是WikiTrust Revamp，维基百科的恶意修改检测。因为签了保密协议，这部分就不详细讲了。只是做了一点微小的工作。据说这个project的由来是，去年特朗普发现维基百科经常被恶搞，就在twitter上@了一下Google。WikiTrust很久之前有人搞过，不过效果非常差，于是Google就安排了几个人做新的WikiTrust，他们就取了个名字叫WikiTrust Revamp，修补的意思。当然整个Dataz组做的事情就很多了。
 
-TBD
+Google作为世界顶级的软件公司，内部工具和文档、开发流程、代码质量控制都做的太成熟了，之前上软工的时候还觉得这些东西好麻烦，为什么要写单元测试，为什么要搞文档和注释，来到Google才发现这些东西是真的游泳。在Google提交每一份代码，首先都要通过g4 fix自动调整一下风格，比如每行不超过80字符，include顺序等等。然后至少两人review，包括代码逻辑、代码风格、可读性、可维护性检查，觉得不好的地方可以写comments。然后，针对每一个comments修改代码，重复上面的流程。在这之间系统会运行presubmit（包括很多静态检查、运行所有相关的单元测试等）。直到所有的reviewer都认为可以提交了，并且presubmit也通过了，这时才可以点击submit按钮，将这份代码提交到代码库里。我交的最慢的一个cl交了两个多星期，是临时找了一位美国那边的精通C++的同事review，给我提了五十多条comments，改的时候整个页面comments比code还多。注释和单元测试就更不必说了，没有这些不可能让你提交的。Google内部的工具和文档真的太全面了，比如moma、codesearch、critique、piper、cider、flume等等，而且都有十分详细的文档或codelab帮助使用。除了这些开发用的工具之外，其他用的也几乎都是Google自家的产品：查资料用Google search，邮件用gmail，浏览器用Chrome，文件用Google docs，表格用Google sheets，ppt用Google slides，开会用meetings，英文看不懂的用Google translate，有问题上moma（内部的search），发消息用hangout chat，等等。Google的基础设施真的让人很震撼。
+
+工作环境方面，真的是太太太太太好了。一日三餐，零食水果尽情享受，还有健身房、按摩椅、乒乓球台、游戏机……还有好多我没有尝试过的。据我观察，正式员工大多9-10点到公司，下午5-6点就走，晚饭后公司就基本没人了。正式员工都是采用<a href="https://en.wikipedia.org/wiki/OKR">OKR工作法</a>，同事之间、上下级之间交流也非常轻松愉悦。由于Google是美国企业，入职时还给我们宣传Google的价值观。印象最深的是比较注重个人隐私，然后开放自由之类的。
+
+Intern offsite去的是这个地方：http://www.dianping.com/shop/97821752 。我个人不是很喜欢这种室内娱乐场所，不过这是大家投票决定的。午饭每人100元budget随意吃。晚餐去的这里：http://www.dianping.com/shop/69719009 ，人均270的自助。Offsite这天工资还照发，舒服。
 
 ## 总结
+
+其实开始找内推的时候真的没想到能来。并且后面找工作的时候才发现，Google的实习经历真的管用，简历几乎没有被卡过（我清华同学本科无实习的简历有时就会被卡）。
 
 TBD

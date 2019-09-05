@@ -249,6 +249,8 @@ This is a list of the movies I have watched.
 
 <a href="https://zh.wikipedia.org/wiki/%E6%88%91%E4%B8%8D%E6%98%AF%E6%BD%98%E9%87%91%E8%8E%B2_(%E7%94%B5%E5%BD%B1)">我不是潘金莲</a>
 
+<a href="https://zh.wikipedia.org/wiki/%E6%88%91%E6%98%AF%E8%AA%B0">我是谁</a>
+
 ### X
 
 <a href="https://zh.wikipedia.org/wiki/%E8%A5%BF%E8%99%B9%E5%B8%82%E9%A6%96%E5%AF%8C">西虹市首富</a>
@@ -286,6 +288,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/Goal!_(film)">一球成名（Goal!）</a>
 
 <a href="https://zh.wikipedia.org/wiki/%E4%B8%80%E8%B7%AF%E9%80%86%E9%A3%8E">一路逆风</a>
+
+<a href="https://zh.wikipedia.org/wiki/%E4%B8%80%E5%87%BA%E5%A5%BD%E6%88%8F">一出好戏</a>
 
 ### Z
 

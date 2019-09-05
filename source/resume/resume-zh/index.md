@@ -1,7 +1,6 @@
 ---
 title: 简历
 toc: true
-date: 2019-08-17 02:18:40
 ---
 英文版简历：<a href="https://xindubawukong.github.io/resume/resume-en/">English Version</a>。
 
@@ -33,7 +32,7 @@ date: 2019-08-17 02:18:40
 
 - 职位：machine learning software engineer intern
 - Report to: wenjies@google.com
-- 项目：wikitrust_revamp。检测维基百科的恶意修改。
+- 项目：wikitrust_revamp。维基百科恶意修改检测。
 
 ## 科研经历
 
