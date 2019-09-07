@@ -10,4 +10,4 @@ Download address: <a href="http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bish
 
 ## 1. Introduction
 
-TBD
+### 1.3 Model Selection
