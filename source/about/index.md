@@ -1,6 +1,5 @@
 ---
 title: About
-date: 2019-08-13 21:45:01
 ---
 
 This is <a href="https://xindubawukong.github.io/">Xiangyun Ding's blog</a>.
