@@ -18,7 +18,7 @@ toc: true
 
 ## 教育背景
 
-2016 - 2020：<a href="http://www.cs.tsinghua.edu.cn/">清华大学计算机系</a>
+2016 - 2020：<a href="http://www.cs.tsinghua.edu.cn/">清华大学计算机系</a>。
 
 ## 技能
 
@@ -26,9 +26,12 @@ toc: true
 
 工具/框架：Platform / Framework: <a href="https://vuejs.org/">Vue.js</a>, <a href="https://www.djangoproject.com/">Django</a>, <a href="https://spark.apache.org/">Spark</a>, <a href="https://pytorch.org/">Pytorch</a>, <a href="https://www.tensorflow.org/">Tensorflow</a>。
 
-## 工作经验
+## 工作经历
 
-谷歌（Google） 2019.5 - 2019.8
+旷视研究院 IC team 2019.9至今
+- 职位：算法实习生
+
+Google（北京） 2019.5 - 2019.8
 
 - 职位：machine learning software engineer intern
 - Report to: wenjies@google.com
@@ -91,4 +94,4 @@ JAVA课程项目：
 
 ## 其他经历
 
-2016.8 - 2017.7：清华大学计算机系计65团支书
+2016.8 - 2017.7：清华大学计算机系2016级5班团支部书记

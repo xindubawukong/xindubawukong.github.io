@@ -6,9 +6,9 @@ This is <a href="https://xindubawukong.github.io/">Xiangyun Ding's blog</a>.
 
 Building of this blog: <a href="https://xindubawukong.github.io/2019/08/13/Build-Blog-on-Github-Pages-with-Hexo/">Build Blog on Github Pages with Hexo</a>.
 
-<a href="https://xindubawukong.github.io/reading/">Reading notes.</a>
+<a href="https://xindubawukong.github.io/reading/">Reading notes</a>.
 
-<a href="https://xindubawukong.github.io/thu41/">thu41 notes.</a>
+<a href="https://xindubawukong.github.io/thu41/">thu41 notes</a>.
 
 ## About myself
 

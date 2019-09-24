@@ -33,10 +33,13 @@ Strong coding ability. Familiar with algorithms and data structures.
 
 ## Work Experience
 
-- Google (PEK office), May 2019 – August 2019
-    - Position: machine learning software engineer intern
-    - Report to: wenjies@google.com
-    - Project: Wikitrust. Detect possible vandalism in Wikipedia dataset.
+MEGVII Research IC team, September 2019 - Present
+- Position: algorithm intern.
+
+Google (PEK office), May 2019 – August 2019
+- Position: machine learning software engineer intern
+- Report to: wenjies@google.com
+- Project: Wikitrust. Detect possible vandalism in Wikipedia dataset.
 
 ## Research Experience
 

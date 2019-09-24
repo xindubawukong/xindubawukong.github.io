@@ -8,6 +8,8 @@ I always think that my knowledge is poor on basic machine learning theory. So I 
 Download address: <a href="http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf">Pattern Recognition and Machine Learning
 </a>.
 
+Word list: https://www.vocabulary.com/lists/1876226 .
+
 ## 1. Introduction
 
 ### 1.3 Model Selection
