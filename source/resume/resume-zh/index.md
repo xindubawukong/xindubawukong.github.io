@@ -18,7 +18,7 @@ toc: true
 
 ## 教育背景
 
-2016 - 2020：<a href="http://www.cs.tsinghua.edu.cn/">清华大学计算机系</a>。
+2016 - 2020：<a href="http://www.cs.tsinghua.edu.cn/">清华大学计算机系</a>
 
 ## 技能
 
