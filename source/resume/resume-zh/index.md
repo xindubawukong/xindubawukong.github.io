@@ -28,43 +28,38 @@ toc: true
 
 ## 工作经历
 
-旷视研究院 IC team 2019.9至今
+旷视科技 2019.9至今
+- 部门：研究员/IC team
 - 职位：算法实习生
 
 Google（北京） 2019.5 - 2019.8
-
+- 部门：Search/Dataz
 - 职位：machine learning software engineer intern
-- Report to: wenjies@google.com
 - 项目：wikitrust_revamp。维基百科恶意修改检测。
 
 ## 科研经历
 
 癌症图像检测 2018.4 - 2019.3
-
-- TBD
+- 通过 wsi 图像判断乳腺癌类别。1.根据切片 H&E 染色规律，通过矩阵分解对图像进 行染色归一化处理;2.对大型图片进行切片，并进行数据增强和数据平衡;3.使用多种网络(vgg、 drn、densenet等)对病理组织图片进行识别和分类;4.对未标注数据使用 EM 算法等半监督学习 方法，提高精确率。项目中主要负责图像归一化，以及模型训练和调参。项目产出共同一作论文一篇 https://arxiv.org/abs/1907.01696 。
 
 基于随机化奇异值分解的大型网络推荐算法 2019.1至今
-
-- TBD
+- 研究自动确定秩的随机化 SVD 及其在大型网络推荐系统中的应用。研究处理稀疏矩阵 的快速、准确的自适应随机化 SVD 算法，以及基于协同过滤的网络推荐算法，然后将两者结合， 实现效率更高、能处理更大规模数据的协同过滤推荐算法。项目中提出了新的自动确定压缩规模 的适用于大型矩阵的推荐算法，并进行了相关实验与测试。项目产出一作论文已投递至亚洲机器 学习会议(ACML2019)，在审中。
 
 ## 项目
 
 ### 课程项目
 
-足球机器人课程项目：
-
-- 无人机飞行控制
-- 代码：TBD
+专业实践课程项目：
+- 无人机模拟飞行控制。通过V-REP模拟软件和LUA语言及ZED双目视觉图片，控制无人机完成起飞、降落、抓取物体、穿越障碍、识别行人、跟踪行人等任务。
 
 数据挖掘课程项目
-
-- 题目：https://biendata.com/competition/dmproject/
-- 代码：TBD。
+- 题目：https://biendata.com/competition/dmproject/ ，理解中文新闻标题，并对标题对做分类。
+- 排行榜：https://biendata.com/competition/dmproject/final-leaderboard/ ，rank 15。
+- 代码：https://github.com/xindubawukong/DataMining_Final_Project 。在预训练的中文BERT模型基础上继续训练分类。
 
 SOA课程项目
-
-- 题目：https://biendata.com/competition/detection/
-- 代码：TBD
+- 题目：https://biendata.com/competition/detection/ ，乳腺癌图像分类。
+- 代码：https://github.com/xindubawukong/SOA_cancer_detection 。使用神经网络提取图像特征，然后与其他临床数据合并训练SVM分类器。
 
 计算机组成原理课程项目
 
@@ -72,19 +67,16 @@ SOA课程项目
 - 代码：TBD。
 
 JAVA课程项目：
-
 - Android新闻APP
 
 人工智能导论课程作业
-
-- 重力四子棋
+- 重力四子棋AI
+- 蒙特卡洛树算法
 
 面向对象程序设计课程项目
-
 - 生物芯片布线算法
 
 程序设计基础课程项目
-
 - 魔方游戏
 - 代码：TBD
 
