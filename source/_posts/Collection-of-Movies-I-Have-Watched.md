@@ -12,6 +12,8 @@ This is a list of the movies I have watched.
 ------
 ## 电影
 
+<a href="https://en.wikipedia.org/wiki/Casino_Royale_(2006_film)">007：大战皇家赌场（Casino Royale）</a>
+
 <a href="https://en.wikipedia.org/wiki/The_World_Is_Not_Enough">007：黑日危机（The World Is Not Enough）</a>
 
 <a href="https://en.wikipedia.org/wiki/Quantum_of_Solace">007：大破量子危机（Quantum of Solace）</a>
@@ -224,6 +226,8 @@ This is a list of the movies I have watched.
 <a href="https://en.wikipedia.org/wiki/The_Shining_(film)">闪灵（The Shining）</a>
 
 ### T
+
+<a href="https://zh.wikipedia.org/zh-hk/%E5%A4%A9%E6%B0%94%E4%B9%8B%E5%AD%90">天气之子</a>
 
 <a href="https://en.wikipedia.org/wiki/Titanic_(1997_film)">泰坦尼克号（Titanic）</a>
 

@@ -49,3 +49,13 @@ date: 2019-10-22 01:46:31
 - 数据链路层：数据帧（Frame）
 - 网络层：分组数据包（Packet）
 - 传输层：数据段（Segment）或报文
+
+### C++ `std::thread`, `std::mutex`等相关知识
+
+`#include <thread>`：包括`thread`类及相关函数。
+
+`#include <mutex>`：包括`std::mutex`, `std::lock_guard`, `std::unique_lock`等类，用来保证线程同步的，防止不同的线程同时操作同一个共享数据。
+
+参考：
+- https://www.runoob.com/w3cnote/cpp-std-thread.html
+- https://blog.csdn.net/weixin_40087851/article/details/82685510
