@@ -14,16 +14,6 @@ https://github.com/xindubawukong/xindubawukong.github.io
 
 This repo only contains static html files. The comments function of the blog is based on the issues of this repo.
 
-
-
-## Whole Hexo Blog Repository
-
-https://github.com/xindubawukong/xindubawukong_blog
-
-You can fork this to build a blog yourself.
-
-
-
 ## References
 
 https://pages.github.com/
