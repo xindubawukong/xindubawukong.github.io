@@ -12,7 +12,7 @@ UPD：反正也没人看，不如瞎写，记录一些乱七八糟的东西也�
 
 I'm an undergraduate student from <a href="http://www.cs.tsinghua.edu.cn/">Department of Computer Science and Technology, Tsinghua University</a>.
 
-My resume is here: <a href="https://xindubawukong.github.io/resume/resume-en">resume</a>, <a href="https://xindubawukong.github.io/resume/resume-zh">简历</a>.
+<!-- My resume is here: <a href="https://xindubawukong.github.io/resume/resume-en">resume</a>, <a href="https://xindubawukong.github.io/resume/resume-zh">简历</a>. -->
 
 ## Contact
 E-mail: xindubawukong@gmail.com
