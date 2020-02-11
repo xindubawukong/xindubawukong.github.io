@@ -235,6 +235,8 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/The_Island_(2005_film)">逃出克隆岛（The Island）</a>
 
+<a href="https://zh.wikipedia.org/wiki/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%88">唐人街探案</a>
+
 <a href="https://zh.wikipedia.org/wiki/%E5%94%90%E4%BA%BA%E8%A1%97%E6%8E%A2%E6%A1%882">唐人街探案2</a>
 
 <a href="https://en.wikipedia.org/wiki/Passengers_(2016_film)">太空旅客（Passengers）</a>
