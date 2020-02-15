@@ -137,6 +137,8 @@ This is a list of the movies I have watched.
 
 <a href="https://en.wikipedia.org/wiki/King_Kong_(2005_film)">金刚（King Kong）</a>
 
+<a href="https://en.wikipedia.org/wiki/Kong:_Skull_Island">金刚：骷髅岛（Kong：Skull Island）</a>
+
 <a href="https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo_(2002_film)">基督山伯爵（The Count of Monte Cristo）</a>
 
 ### K
