@@ -43,10 +43,10 @@ Google (PEK office), May 2019 – August 2019
 
 ## Research Experience
 
-Model compression based neural network and deployment to FPGA
+Deep Neural Network Model Compression
 - This is my graduation project.
 - Leader: Wenjian Yu, Associate Professor, Department of Computer Science, Tsinghua University
-- Research several model compression methods and their pros and cons. Use HLS (High Level Synthesis) to deploy compressed model to FPGA.
+- Research several model compression methods (quantization, pruning, etc.) and their pros and cons. Use HLS (High Level Synthesis) to deploy compressed model to FPGA.
 - Aiming to <a href="https://dac.com/content/2020-system-design-contest">DAC SDC 2020 Contest</a>.
 
 Application of Fast Matrix SVD on Large Recommendation System, January - present.
