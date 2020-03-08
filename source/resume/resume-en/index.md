@@ -3,8 +3,6 @@ title: Xiangyun Ding
 toc: true
 ---
 
-Click here for Chinese version: <a href="https://xindubawukong.github.io/resume/resume-zh/">中文版本简历</a>.
-
 ## Basic Information
 
 <img src="https://i.postimg.cc/PqfYBbsV/Wechat-IMG14.jpg" height=250>
@@ -23,7 +21,7 @@ Aug 2016-Jul 2020: <a href="http://www.cs.tsinghua.edu.cn/">Department of Comput
 
 ## Skills
 
-Programming languages: C/C++, Python, Java, Scala, Javascript, Verilog, HLS
+Programming languages: C/C++, Python, Java, Matlab, Javascript, Verilog, HLS
 
 Platform / Framework: Vue.js, Django, Spark, Pytorch, Tensorflow, etc.
 
