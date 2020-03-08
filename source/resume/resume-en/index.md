@@ -27,6 +27,10 @@ Platform / Framework: Vue.js, Django, Spark, Pytorch, Tensorflow, etc.
 
 Strong coding ability. Familiar with algorithms and data structures. Experienced in machine learning and computer vision.
 
+## Awards and Honors
+
+Silver medal in the 32'th National Olympiad in Informatics (NOI 2015): <a href="http://www.noi.cn/RequireFile.do?fid=GDBMTjQT&attach=n">Rewards list</a>.
+
 ## Work Experience
 
 MEGVII Research IC team, September 2019 - October 2019
@@ -72,10 +76,6 @@ WSI images cancer detection, April 2018 – March 2019
   - This project is aiming to https://biendata.com/competition/detection/ contest. We developed cancer detection system based on SVM and Deep Neural Network.
 - Computer Organization	class project
   - Code: TBD
-
-## Awards and Honors
-
-Silver medal in the 32'th National Olympiad in Informatics (NOI 2015): <a href="http://www.noi.cn/RequireFile.do?fid=GDBMTjQT&attach=n">Rewards list</a>.
 
 ## Links
 
