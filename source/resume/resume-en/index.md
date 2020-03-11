@@ -63,7 +63,7 @@ WSI images cancer detection, April 2018 – March 2019
 
 ## Projects
 
-- 	Human Computer Interaction Theory and Technology class project
+- Human Computer Interaction Theory and Technology class project
   - Code: https://github.com/zijing2-107A/HCI_Final_Project
   - Developed an Android application to conveniently rotate screen orientation to users wish.
 - Introduction to Database Management System	 class project
