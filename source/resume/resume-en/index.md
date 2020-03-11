@@ -75,7 +75,9 @@ WSI images cancer detection, April 2018 – March 2019
   - Code: https://github.com/xindubawukong/SOA_cancer_detection
   - This project is aiming to https://biendata.com/competition/detection/ contest. We developed cancer detection system based on SVM and Deep Neural Network.
 - Computer Organization	class project
-  - Code: TBD
+  - Code: https://github.com/MIPS32-CPU/cpu
+  - Report: https://github.com/MIPS32-CPU/submit
+  - Designed and implemented a five-level pipelined CPU based on MIPS.
 
 ## Links
 
