@@ -54,7 +54,7 @@ Deep Neural Network Model Compression
 Application of Fast Matrix SVD on Large Recommendation System, January - present.
 - Part of Tsinghua University Initiative Scientific Research Program and DCST Student Academic Training Program （清华大学学术推进计划、计算机系学术新星计划）.
 - Leader: Wenjian Yu, Associate Professor, Department of Computer Science, Tsinghua University
-- Designed large network recommendation algorithm based on randomized singular value decomposition and neural network.
+- Design large network recommendation algorithm based on randomized singular value decomposition and neural network. We are aiming at ACML 2020.
 
 WSI images cancer detection, April 2018 – March 2019
 - Tsinghua University Students Research Training Program (SRT)
