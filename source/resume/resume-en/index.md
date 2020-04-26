@@ -17,7 +17,7 @@ Telephone & Wechat: (86) 18800123662
 
 ## Education
 
-Aug 2016-Jul 2020: <a href="http://www.cs.tsinghua.edu.cn/">Department of Computer Science and Technology, Tsinghua University</a> (Bachelor of engineering in Computer Science)
+August 2016-June 2020: <a href="http://www.cs.tsinghua.edu.cn/">Department of Computer Science and Technology, Tsinghua University</a> (Bachelor of engineering in Computer Science)
 
 ## Skills
 
@@ -52,14 +52,14 @@ Deep Neural Network Model Compression
 - Aiming to <a href="https://dac.com/content/2020-system-design-contest">DAC SDC 2020 Contest</a>.
 
 Application of Fast Matrix SVD on Large Recommendation System, January - present.
-- Belong to Tsinghua University Initiative Scientific Research Program and DCST Student Academic Training Program （清华大学学术推进计划、计算机系学术新星计划）.
+- Part of Tsinghua University Initiative Scientific Research Program and DCST Student Academic Training Program （清华大学学术推进计划、计算机系学术新星计划）.
 - Leader: Wenjian Yu, Associate Professor, Department of Computer Science, Tsinghua University
-- Designed large network recommendation algorithm based on randomized singular value decomposition. Used SVD in recommendation system based on machine learning methods.
+- Designed large network recommendation algorithm based on randomized singular value decomposition and neural network.
 
 WSI images cancer detection, April 2018 – March 2019
 - Tsinghua University Students Research Training Program (SRT)
 - Leader: Hailong Yao, Associate Professor, Department of Computer Science, Tsinghua University
-- This project is carried out on <a href="https://iciar2018-challenge.grand-challenge.org/">ICIAR2018</a> dataset. The competition requires to classify images in four different kinds of breast cancer, and then detect cancer areas on whole slide images (WSI). Apply <a href="https://ieeexplore.ieee.org/abstract/document/7460968">Vahadane’s algorithm</a> for data normalization. Use pytorch based models for classification. Apply <a href="https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm">EM algorithm</a> to utilize unlabeled data. The output of this project is a <a href="https://arxiv.org/abs/1907.01696">co-first author paper</a>.
+- This project is carried out on <a href="https://iciar2018-challenge.grand-challenge.org/">ICIAR2018</a> dataset. The competition requires to classify images in four different kinds of breast cancer, and then detect cancer areas on whole slide images (WSI). Apply <a href="https://ieeexplore.ieee.org/abstract/document/7460968">Vahadane’s algorithm</a> for data normalization. Use pytorch based models for classification. Apply EM algorithm</a> to utilize unlabeled data. The output of this project is a <a href="https://arxiv.org/abs/1907.01696">co-first author paper</a>.
 
 ## Projects
 
