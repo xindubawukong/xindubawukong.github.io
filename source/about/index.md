@@ -2,7 +2,7 @@
 title: About
 ---
 
-This is <a href="https://xindubawukong.github.io/">Xiangyun Ding's blog</a>.
+This is <a href="https://xindubawukong.github.io/">xindubawukong's blog</a>.
 
 Building of this blog: <a href="https://xindubawukong.github.io/2019/08/13/Build-Blog-on-Github-Pages-with-Hexo/">Build Blog on Github Pages with Hexo</a>.
 
