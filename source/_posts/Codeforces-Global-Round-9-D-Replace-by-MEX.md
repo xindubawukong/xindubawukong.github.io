@@ -5,6 +5,7 @@ categories:
 - Algorithm
 tags:
 - codeforces
+- 构造
 ---
 
 ## 题目

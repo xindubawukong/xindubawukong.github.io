@@ -5,6 +5,7 @@ categories:
 - Algorithm
 tags:
 - codeforces
+- DP
 ---
 
 ## 题目
