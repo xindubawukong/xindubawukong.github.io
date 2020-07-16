@@ -9,6 +9,8 @@ tags:
 
 ## 题目
 
+https://codeforces.com/contest/1371/problem/E2
+
 有一个游戏，规则如下：
 - 有n个敌人，第i个敌人能力值为a[i]。你的初始能力值为x。
 - 如果你的能力值>=敌人的能力值，你可以击败他。
