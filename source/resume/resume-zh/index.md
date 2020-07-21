@@ -4,6 +4,8 @@ toc: true
 ---
 英文版简历：<a href="https://xindubawukong.github.io/resume/resume-en/">English Version</a>。
 
+中文版已过时。
+
 ## 基本信息
 
 <img src="https://i.postimg.cc/PqfYBbsV/Wechat-IMG14.jpg" height=200>
