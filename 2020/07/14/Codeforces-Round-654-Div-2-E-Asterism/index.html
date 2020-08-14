@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+          <head><meta name="generator" content="Hexo 3.9.0">
+        <meta charset="utf-8">
+            
+            <title>
+                Codeforces Round #654 (Div. 2) E. Asterism | xindubawukong&#39;s blog
+            </title>
+            <!-- Added by dxy -->
+            <meta name="google-site-verification" content="DlCxDt1-Nu99LNLZIgBqdKf9RIJoxAxxUklEydSefKA">
+            <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+            <script type="text/x-mathjax-config">
+                MathJax.Hub.Config({
+                    tex2jax: {
+                    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                    inlineMath: [['$','$']]
+                    }
+                });
+            </script>
+            <!-- Added by dxy -->
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+            <meta name="theme-color" content="#4184f3">
+            
+            
+            <link href="/favicon.ico" rel="icon">
+            
+
+            <link rel="stylesheet" href="/css/highlight.light.css">
+            <link rel="stylesheet" href="/css/prism-customize.css">
+            <link rel="stylesheet" href="/css/nav-icon.css">
+            <link rel="stylesheet" href="/css/waves.min.css">
+            <link rel="stylesheet" href="/css/jquery.tocify.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/nav-indicator.css">
+            
+  
+  <!-- 百度统计 -->
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?77c0e7aa2843c3d417a40d9367fae72b";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+  
+
+  
+  <!-- 谷歌统计 -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-145602629-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  
+            
+        
+    </head>
+
+    <body>
+        <header>
+            <!-- cover image or sth. -->
+        </header>
+        <div id="main" class="m-scene">
+            
+<div class="nav-wrapper">
+
+    <div class="container">
+        <nav>
+            <div class="logo wave">
+                <a href="/" id="logo">
+                    xindubawukong&#39;s blog
+                </a>
+            </div>
+            <div class="nav-toggle-icon" >
+                <div class="material-hamburger">
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                </div>
+            </div>
+            <div class="menu-wrapper">
+                <div class="nav-indicator">
+                </div>
+                <ul class="menus">
+                    
+                     
+                        <li>
+                            <a class="wave " href="/">
+                                Home
+                            </a>
+                        </li>
+                     
+                        <li>
+                            <a class="wave " href="/archives">
+                                Archive
+                            </a>
+                        </li>
+                     
+                        <li>
+                            <a class="wave " href="/about">
+                                About
+                            </a>
+                        </li>
+                     
+                    
+                   
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+            <div class="container content">
+                <div class="scene_element scene_element--fadein">
+                    <div class="row">
+    <div class="main">
+        <article>
+          
+          <header class="post-header">
+          
+          </header>
+          <h1 class="post-title">Codeforces Round #654 (Div. 2) E. Asterism</h1>
+
+          <section class="post-info">
+            <span class="post-date">2020/07/14</span>
+            
+            <span class="post-category">
+                <a class="article-category-link" href="/categories/Algorithm/">Algorithm</a>
+            </span>
+            
+            
+            <span class="post-tags">
+              <ul class="post-tag-list"><li class="post-tag-list-item"><a class="post-tag-list-link" href="/tags/codeforces/">codeforces</a></li></ul>
+            </span>
+            
+          </section>
+
+          <section class="post-content">
+            <h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://codeforces.com/contest/1371/problem/E2" target="_blank" rel="noopener">https://codeforces.com/contest/1371/problem/E2</a></p>
+<p>有一个游戏，规则如下：</p>
+<ul>
+<li>有n个敌人，第i个敌人能力值为a[i]。你的初始能力值为x。</li>
+<li>如果你的能力值&gt;=敌人的能力值，你可以击败他。</li>
+<li>当你击败一个敌人后，你的能力值+1。</li>
+<li>你任意调整打敌人的顺序（即n的全排列种）。设f(x)为可以击败所有敌人的顺序方案数。</li>
+</ul>
+<p>现在，给定n和a，以及一个整数p（0&lt;p&lt;=n），求所有的x，使得f(x)不能被p整除。</p>
+<h2 id="做法"><a href="#做法" class="headerlink" title="做法"></a>做法</h2><p>首先肯定先将a[i]排序。那么，要击败所有敌人，x至少为max{a[i]}-n+1。而由于0和n!可以被p整除，所以必有max{a[i]}-n+1 &lt;= x &lt;= max{a[i]}-1。也就是说，可取的x最多只有n-2个。</p>
+<p>通过手算可以发现，设b[i]为可以放在i位置之前的敌人数，那么$f(x)=\prod_{i=0}^{n-1}(b[i]-i)$。而当x增大1时，b[i]会变成b[i+1]。</p>
+<p>这里一定要好好利用题目的性质。我们要求出哪些f(x)不能被p整除。我这里就在想怎么维护所有的b[i]-i模p的值，想了很久也没想出来。其实这题很简单，因为最后乘的一项一定是1，而b[i]-i最多只会减少1，所以只要有某一个b[i]-i大于等于p了，就一定会被p整除。</p>
+<p>同时，由于x增大1，b[i]变为b[i+1]，而b数组肯定是不降的，因此如果f(x)&gt;0能被p整除，那么比x大的都一定会被p整除。</p>
+<p>所以，我们先确定最小的f(x)&gt;0的x，然后二分查找右端点即可。每次O(n)看一下所有的b[i]-i是否满足条件即可。时间复杂度O(nlogn)。</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p><a href="https://codeforces.com/contest/1371/submission/86764620" target="_blank" rel="noopener">https://codeforces.com/contest/1371/submission/86764620</a></p>
+
+          </section>
+        </article>
+        
+
+       
+        <div class="pager">
+          
+            <a class="post-prev pager-item" href="/2020/07/17/Codeforces-Round-654-Div-2-F-Raging-Thunder/" >
+              <strong class="article-nav-caption">Newer</strong>
+              <p class="post-nav-title">Codeforces Round #654 (Div. 2) F. Raging Thunder</p>
+            </a>
+          
+          
+            <a class="post-next pager-item" href="/2020/07/09/Codeforces-Global-Round-9-D-Replace-by-MEX/">
+              <strong class="article-nav-caption">Older</strong>
+              <p class="post-nav-title">Codeforces Global Round 9 D. Replace by MEX</p>
+            </a>
+          
+        </div>
+        
+
+         <!-- comments -->
+        <div class="comment-section">
+  
+    
+
+
+</div>
+
+    </div>
+    
+</div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+    <!-- added by dxy -->
+        <script src="https://utteranc.es/client.js"
+        repo="xindubawukong/xindubawukong.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
+    <!-- added by dxy -->
+    <!---
+    <p>由<a href="http://hexo.io/" target="_blank">Hexo</a>强力驱动，搭载<a href="https://github.com/wayou/hexo-theme-gstyle">gstyle</a>主题</p>
+    -->
+    <p>
+        &copy; 2020 xindubawukong
+    </p>
+</footer>
+<script src="/lib/jquery.js"></script>
+<script src="/lib/waves.js"></script>
+<script src="/lib/jquery-ui.js"></script>
+<script src="/lib/jquery.tocify.js"></script>
+<script src="/js/main.js"></script>
+
+    </body>
+</html>

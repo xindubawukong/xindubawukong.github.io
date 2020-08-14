@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+          <head><meta name="generator" content="Hexo 3.9.0">
+        <meta charset="utf-8">
+            
+            <title>
+                Leetcode 940. Distinct Subsequences II | xindubawukong&#39;s blog
+            </title>
+            <!-- Added by dxy -->
+            <meta name="google-site-verification" content="DlCxDt1-Nu99LNLZIgBqdKf9RIJoxAxxUklEydSefKA">
+            <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+            <script type="text/x-mathjax-config">
+                MathJax.Hub.Config({
+                    tex2jax: {
+                    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                    inlineMath: [['$','$']]
+                    }
+                });
+            </script>
+            <!-- Added by dxy -->
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+            <meta name="theme-color" content="#4184f3">
+            
+            
+            <link href="/favicon.ico" rel="icon">
+            
+
+            <link rel="stylesheet" href="/css/highlight.light.css">
+            <link rel="stylesheet" href="/css/prism-customize.css">
+            <link rel="stylesheet" href="/css/nav-icon.css">
+            <link rel="stylesheet" href="/css/waves.min.css">
+            <link rel="stylesheet" href="/css/jquery.tocify.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/nav-indicator.css">
+            
+  
+  <!-- 百度统计 -->
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?77c0e7aa2843c3d417a40d9367fae72b";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+  
+
+  
+  <!-- 谷歌统计 -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-145602629-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  
+            
+        
+    </head>
+
+    <body>
+        <header>
+            <!-- cover image or sth. -->
+        </header>
+        <div id="main" class="m-scene">
+            
+<div class="nav-wrapper">
+
+    <div class="container">
+        <nav>
+            <div class="logo wave">
+                <a href="/" id="logo">
+                    xindubawukong&#39;s blog
+                </a>
+            </div>
+            <div class="nav-toggle-icon" >
+                <div class="material-hamburger">
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                </div>
+            </div>
+            <div class="menu-wrapper">
+                <div class="nav-indicator">
+                </div>
+                <ul class="menus">
+                    
+                     
+                        <li>
+                            <a class="wave " href="/">
+                                Home
+                            </a>
+                        </li>
+                     
+                        <li>
+                            <a class="wave " href="/archives">
+                                Archive
+                            </a>
+                        </li>
+                     
+                        <li>
+                            <a class="wave " href="/about">
+                                About
+                            </a>
+                        </li>
+                     
+                    
+                   
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+            <div class="container content">
+                <div class="scene_element scene_element--fadein">
+                    <div class="row">
+    <div class="main">
+        <article>
+          
+          <header class="post-header">
+          
+          </header>
+          <h1 class="post-title">Leetcode 940. Distinct Subsequences II</h1>
+
+          <section class="post-info">
+            <span class="post-date">2019/08/28</span>
+            
+            <span class="post-category">
+                <a class="article-category-link" href="/categories/Algorithm/">Algorithm</a>
+            </span>
+            
+            
+            <span class="post-tags">
+              <ul class="post-tag-list"><li class="post-tag-list-item"><a class="post-tag-list-link" href="/tags/leetcode/">leetcode</a></li></ul>
+            </span>
+            
+          </section>
+
+          <section class="post-content">
+            <h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.com/problems/distinct-subsequences-ii/" target="_blank" rel="noopener">https://leetcode.com/problems/distinct-subsequences-ii/</a></p>
+<p>给定一个小写字母组成的字符串s，求s的不同子序列的个数模P。</p>
+<h2 id="做法"><a href="#做法" class="headerlink" title="做法"></a>做法</h2><p>设f[i]表示s的前i个字符构成的不同子序列个数。那么对于第i个，我们可以选第i个，也可以不选第i个，所以f[i] = f[i-1] * 2。这样肯定是有问题的，会出现重复计算的情况。什么时候会重复呢？首先，选第i个，结果确实是f[i-1]，不选第i个，结果也确实是f[i-1]。问题就在于这两个f[i-1]，选第i个和不选第i个可能会出现同样的子序列。那么重复的最后一定是s[i]。设上一个s[i]字母出现在k位置，那么f[k-1]这些串，后面跟s[k]和s[i]，结果在两个f[i-1]中被算了两次！所以减去f[k-1]即可。时间复杂度O(n)。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> P = <span class="number">1000000007</span>;</span><br><span class="line"><span class="keyword">int</span> last[<span class="number">26</span>];</span><br><span class="line"><span class="keyword">int</span> f[<span class="number">2111</span>];</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">distinctSubseqII</span><span class="params">(<span class="built_in">string</span> S)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">26</span>; i++) last[i] = <span class="number">-1</span>;</span><br><span class="line">        f[<span class="number">0</span>] = <span class="number">2</span>;</span><br><span class="line">        last[S[<span class="number">0</span>] - <span class="string">'a'</span>] = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; S.length(); i++) &#123;</span><br><span class="line">            f[i] = f[i<span class="number">-1</span>] * <span class="number">2</span> % P;</span><br><span class="line">            <span class="keyword">if</span> (last[S[i] - <span class="string">'a'</span>] &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">                f[i] -= last[S[i] - <span class="string">'a'</span>] == <span class="number">0</span> ? <span class="number">1</span> : f[last[S[i] - <span class="string">'a'</span>] - <span class="number">1</span>];</span><br><span class="line">                <span class="keyword">if</span> (f[i] &lt; <span class="number">0</span>) f[i] += P;</span><br><span class="line">            &#125;</span><br><span class="line">            last[S[i] - <span class="string">'a'</span>] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> ans = f[S.length() - <span class="number">1</span>] - <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (ans &lt; <span class="number">0</span>) ans += P;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+          </section>
+        </article>
+        
+
+       
+        <div class="pager">
+          
+            <a class="post-prev pager-item" href="/2019/09/01/Kick-Start-2019-Round-D/" >
+              <strong class="article-nav-caption">Newer</strong>
+              <p class="post-nav-title">Kick Start 2019 Round D</p>
+            </a>
+          
+          
+            <a class="post-next pager-item" href="/2019/08/27/Leetcode-1172-Dinner-Plate-Stacks/">
+              <strong class="article-nav-caption">Older</strong>
+              <p class="post-nav-title">Leetcode 1172. Dinner Plate Stacks</p>
+            </a>
+          
+        </div>
+        
+
+         <!-- comments -->
+        <div class="comment-section">
+  
+    
+
+
+</div>
+
+    </div>
+    
+</div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+    <!-- added by dxy -->
+        <script src="https://utteranc.es/client.js"
+        repo="xindubawukong/xindubawukong.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
+    <!-- added by dxy -->
+    <!---
+    <p>由<a href="http://hexo.io/" target="_blank">Hexo</a>强力驱动，搭载<a href="https://github.com/wayou/hexo-theme-gstyle">gstyle</a>主题</p>
+    -->
+    <p>
+        &copy; 2020 xindubawukong
+    </p>
+</footer>
+<script src="/lib/jquery.js"></script>
+<script src="/lib/waves.js"></script>
+<script src="/lib/jquery-ui.js"></script>
+<script src="/lib/jquery.tocify.js"></script>
+<script src="/js/main.js"></script>
+
+    </body>
+</html>

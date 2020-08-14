@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+          <head><meta name="generator" content="Hexo 3.9.0">
+        <meta charset="utf-8">
+            
+            <title>
+                Leetcode 1163. Last Substring in Lexicographical Order | xindubawukong&#39;s blog
+            </title>
+            <!-- Added by dxy -->
+            <meta name="google-site-verification" content="DlCxDt1-Nu99LNLZIgBqdKf9RIJoxAxxUklEydSefKA">
+            <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+            <script type="text/x-mathjax-config">
+                MathJax.Hub.Config({
+                    tex2jax: {
+                    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                    inlineMath: [['$','$']]
+                    }
+                });
+            </script>
+            <!-- Added by dxy -->
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+            <meta name="theme-color" content="#4184f3">
+            
+            
+            <link href="/favicon.ico" rel="icon">
+            
+
+            <link rel="stylesheet" href="/css/highlight.light.css">
+            <link rel="stylesheet" href="/css/prism-customize.css">
+            <link rel="stylesheet" href="/css/nav-icon.css">
+            <link rel="stylesheet" href="/css/waves.min.css">
+            <link rel="stylesheet" href="/css/jquery.tocify.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/nav-indicator.css">
+            
+  
+  <!-- 百度统计 -->
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?77c0e7aa2843c3d417a40d9367fae72b";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+  
+
+  
+  <!-- 谷歌统计 -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-145602629-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  
+            
+        
+    </head>
+
+    <body>
+        <header>
+            <!-- cover image or sth. -->
+        </header>
+        <div id="main" class="m-scene">
+            
+<div class="nav-wrapper">
+
+    <div class="container">
+        <nav>
+            <div class="logo wave">
+                <a href="/" id="logo">
+                    xindubawukong&#39;s blog
+                </a>
+            </div>
+            <div class="nav-toggle-icon" >
+                <div class="material-hamburger">
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                </div>
+            </div>
+            <div class="menu-wrapper">
+                <div class="nav-indicator">
+                </div>
+                <ul class="menus">
+                    
+                     
+                        <li>
+                            <a class="wave " href="/">
+                                Home
+                            </a>
+                        </li>
+                     
+                        <li>
+                            <a class="wave " href="/archives">
+                                Archive
+                            </a>
+                        </li>
+                     
+                        <li>
+                            <a class="wave " href="/about">
+                                About
+                            </a>
+                        </li>
+                     
+                    
+                   
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+            <div class="container content">
+                <div class="scene_element scene_element--fadein">
+                    <div class="row">
+    <div class="main">
+        <article>
+          
+          <header class="post-header">
+          
+          </header>
+          <h1 class="post-title">Leetcode 1163. Last Substring in Lexicographical Order</h1>
+
+          <section class="post-info">
+            <span class="post-date">2019/08/20</span>
+            
+            <span class="post-category">
+                <a class="article-category-link" href="/categories/Algorithm/">Algorithm</a>
+            </span>
+            
+            
+            <span class="post-tags">
+              <ul class="post-tag-list"><li class="post-tag-list-item"><a class="post-tag-list-link" href="/tags/leetcode/">leetcode</a></li></ul>
+            </span>
+            
+          </section>
+
+          <section class="post-content">
+            <h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><a href="https://leetcode.com/problems/last-substring-in-lexicographical-order/" target="_blank" rel="noopener">https://leetcode.com/problems/last-substring-in-lexicographical-order/</a></p>
+<p>给定一个字符串s，求s的所有子串中字典序最大的那一个。s长度&lt;=400000。</p>
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>首先可以发现，s[l, n-1]的字典序一定比s[l, r]大。因此我们只需在s的n个后缀中找字典许最大的即可。</p>
+<p>说到后缀自然我当时想到的是后缀数组。倍增求后缀数组可以参考 <a href="https://blog.csdn.net/Sunshine_cfbsl/article/details/52190433" target="_blank" rel="noopener">https://blog.csdn.net/Sunshine_cfbsl/article/details/52190433</a> ，时间复杂度O(nlogn)。这种方法我交上去超时了。不过代码还是放一下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SuffixArray</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  <span class="keyword">int</span> n;</span><br><span class="line">  <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; rank, sa, height;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">work</span><span class="params">(<span class="keyword">const</span> <span class="built_in">vector</span>&lt;pair&lt;pair&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt;, <span class="keyword">int</span>&gt;&gt;&amp; a)</span> </span>&#123;</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="built_in">vector</span>&lt;pair&lt;pair&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt;, <span class="keyword">int</span>&gt;&gt;&gt; go(n);</span><br><span class="line">    <span class="built_in">vector</span>&lt;pair&lt;pair&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt;, <span class="keyword">int</span>&gt;&gt; now;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">auto</span> tmp : a) &#123;</span><br><span class="line">      <span class="keyword">if</span> (tmp.first.second == <span class="number">-1</span>) now.push_back(tmp);</span><br><span class="line">      <span class="keyword">else</span> go[tmp.first.second].push_back(tmp);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">      <span class="keyword">for</span> (<span class="keyword">auto</span> tmp : go[i]) now.push_back(tmp);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) go[i].clear();</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">auto</span> tmp : now)</span><br><span class="line">      go[tmp.first.first].push_back(tmp);</span><br><span class="line">    now.clear();</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">      <span class="keyword">for</span> (<span class="keyword">auto</span> tmp : go[i]) now.push_back(tmp);</span><br><span class="line">    &#125;</span><br><span class="line">    rank[now[<span class="number">0</span>].second] = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>, p = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">      <span class="keyword">if</span> (now[i].first != now[i<span class="number">-1</span>].first) p++;</span><br><span class="line">      rank[now[i].second] = p;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">void</span> <span class="title">GetSuffixArray</span><span class="params">(<span class="keyword">const</span> <span class="built_in">string</span>&amp; s)</span> </span>&#123;</span><br><span class="line">    n = s.length();</span><br><span class="line">    rank.resize(n);</span><br><span class="line">    sa.resize(n);</span><br><span class="line">    height.resize(n);</span><br><span class="line">    <span class="built_in">vector</span>&lt;pair&lt;pair&lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt;, <span class="keyword">int</span>&gt;&gt; a(n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++)  a[i] = make_pair(make_pair(s[i], <span class="number">-1</span>), i);</span><br><span class="line">    sort(a.begin(), a.end());</span><br><span class="line">    rank[a[<span class="number">0</span>].second] = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>, p = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">      <span class="keyword">if</span> (a[i].first != a[i<span class="number">-1</span>].first) p++;</span><br><span class="line">      rank[a[i].second] = p;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> k = <span class="number">1</span>; k &lt; n; k &lt;&lt;= <span class="number">1</span>) &#123;</span><br><span class="line">      <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) a[i] = make_pair(make_pair(rank[i], i + k &gt;= n ? <span class="number">-1</span> : rank[i + k]), i);</span><br><span class="line">      work(a);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) sa[rank[i]] = i;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>, p = <span class="number">0</span>; i &lt; n; i++)  &#123;</span><br><span class="line">      <span class="keyword">if</span> (rank[i] == <span class="number">0</span>) <span class="keyword">continue</span>;</span><br><span class="line">      <span class="keyword">int</span> a = i, b = sa[rank[i] - <span class="number">1</span>];</span><br><span class="line">      <span class="keyword">while</span> (a + p &lt; n &amp;&amp; b + p &lt; n &amp;&amp; s[a + p] == s[b + p]) p++;</span><br><span class="line">      height[rank[i]] = p;</span><br><span class="line">      <span class="keyword">if</span> (p &gt; <span class="number">0</span>) p--;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">lastSubstring</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line">        SuffixArray sa;</span><br><span class="line">        sa.GetSuffixArray(s);</span><br><span class="line">        <span class="keyword">int</span> t = sa.sa[sa.n - <span class="number">1</span>];</span><br><span class="line">        <span class="keyword">return</span> s.substr(t);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>后缀数组写的很傻，尤其是基数排序那里。实在是没法看。。。</p>
+<h2 id="做法"><a href="#做法" class="headerlink" title="做法"></a>做法</h2><p>那么有没有O(n)的方法呢？我想了一会琢磨了一个乱七八糟的算法。首先，我们可以把所有第一个字母最大的后缀作为candidates。然后，比较candidates的第二个字母，把第二个字母也最大的放到新的candidates中。这样一直比较，知道candidates中只剩下一个后缀即可。</p>
+<p>但是这种方法时间上不能保证，比如”aaaaaa…”，就会变成O(n^2)。这时需要利用一下candidates的性质：candidates中的后缀一定比不在candidates中的后缀大。对于candidates中的两个后缀i和j，i &lt; j，且他们前k个字母都相同，s[i, i+k-1] = s[j, j+k-1]，如果i+k-1=j，也就是说长度k使得两个后缀重叠了，会发生很神奇的现象。由于我们需要比较的是s[i, n-1]和s[j, n-1]这两个后缀，由于其前k个相同，那么等价于比较s[i+k-1, n-1]和s[j+k-1, n-1]这两个后缀，也就是比较s[j, n-1]和s[j+k-1, n-1]。由于前面说过，candidates中的后缀一定比不在candidates中的后缀大，所以当j+k-1不是candidates时，s[j, n-1] &gt; s[j+k-1, n-1]，也就是s[i, n-1] &gt; s[j, n-1]。那么j就可以从candidates中删除。如果j+k-1也在candidates中，那么套用上面的理论，j+k-1也可以删除，从而j也可以删除。也就是说，如果我们在比较所有candidates的第k个字母时，如果发现两个candidates出现了重叠，那么前面的就可以把后面的那个吃掉。这样可以做了。代码如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  <span class="function"><span class="built_in">string</span> <span class="title">lastSubstring</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n = s.size();</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">bool</span>&gt; flag(n);</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; num(<span class="number">26</span>);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) num[s[i] - <span class="string">'a'</span>]++;</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; now;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> k = <span class="number">25</span>; k &gt;= <span class="number">0</span>; k--) &#123;</span><br><span class="line">      <span class="keyword">if</span> (num[k] &gt; <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">          <span class="keyword">if</span> (s[i] - <span class="string">'a'</span> == k) &#123;</span><br><span class="line">            flag[i] =<span class="literal">true</span>;</span><br><span class="line">            now.push_back(i);</span><br><span class="line">          &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> len = <span class="number">2</span>; len &lt;= n; len++) &#123;</span><br><span class="line">      <span class="keyword">if</span> (now.size() == <span class="number">1</span>) <span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">26</span>; i++) num[i] = <span class="number">0</span>;</span><br><span class="line">      <span class="keyword">for</span> (<span class="keyword">int</span> pos : now) &#123;</span><br><span class="line">        <span class="keyword">int</span> t = pos + len - <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (t &gt;= n) <span class="keyword">continue</span>;</span><br><span class="line">        num[s[t] - <span class="string">'a'</span>]++;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">for</span> (<span class="keyword">int</span> k = <span class="number">25</span>; k &gt;= <span class="number">0</span>; k--) &#123;</span><br><span class="line">        <span class="keyword">if</span> (num[k] &gt; <span class="number">0</span>) &#123;</span><br><span class="line">          <span class="keyword">for</span> (<span class="keyword">int</span> pos : now) &#123;</span><br><span class="line">            <span class="keyword">int</span> t = pos + len - <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span> (t &gt;= n) &#123;</span><br><span class="line">              flag[pos] = <span class="literal">false</span>;</span><br><span class="line">              <span class="keyword">continue</span>;</span><br><span class="line">            &#125;;</span><br><span class="line">            flag[t] = <span class="literal">false</span>;</span><br><span class="line">            <span class="keyword">if</span> (s[t] - <span class="string">'a'</span> != k) flag[pos] = <span class="literal">false</span>;</span><br><span class="line">          &#125;</span><br><span class="line">          <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; new_now;</span><br><span class="line">      <span class="keyword">for</span> (<span class="keyword">int</span> pos : now) &#123;</span><br><span class="line">        <span class="keyword">if</span> (flag[pos]) new_now.push_back(pos);</span><br><span class="line">      &#125;</span><br><span class="line">      now = new_now;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> s.substr(now[<span class="number">0</span>]);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>下面分析复杂度（其实做的时候没想复杂度）。对于开始时的所有candidates，它最多会被遍历d次，d为它之前的那个candidates的距离（先不考虑第一个candidates）。这些距离之和不超过n，再加上第一个candidates最多被遍历n次，故时间复杂度为O(n)。</p>
+
+          </section>
+        </article>
+        
+
+       
+        <div class="pager">
+          
+            <a class="post-prev pager-item" href="/2019/08/24/Kick-Start-2019-Round-A/" >
+              <strong class="article-nav-caption">Newer</strong>
+              <p class="post-nav-title">Kick Start 2019 Round A</p>
+            </a>
+          
+          
+            <a class="post-next pager-item" href="/2019/08/19/Leetcode-1074-Number-of-Submatrices-That-Sum-to-Target/">
+              <strong class="article-nav-caption">Older</strong>
+              <p class="post-nav-title">Leetcode 1074. Number of Submatrices That Sum to Target</p>
+            </a>
+          
+        </div>
+        
+
+         <!-- comments -->
+        <div class="comment-section">
+  
+    
+
+
+</div>
+
+    </div>
+    
+</div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+    <!-- added by dxy -->
+        <script src="https://utteranc.es/client.js"
+        repo="xindubawukong/xindubawukong.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
+    <!-- added by dxy -->
+    <!---
+    <p>由<a href="http://hexo.io/" target="_blank">Hexo</a>强力驱动，搭载<a href="https://github.com/wayou/hexo-theme-gstyle">gstyle</a>主题</p>
+    -->
+    <p>
+        &copy; 2020 xindubawukong
+    </p>
+</footer>
+<script src="/lib/jquery.js"></script>
+<script src="/lib/waves.js"></script>
+<script src="/lib/jquery-ui.js"></script>
+<script src="/lib/jquery.tocify.js"></script>
+<script src="/js/main.js"></script>
+
+    </body>
+</html>
