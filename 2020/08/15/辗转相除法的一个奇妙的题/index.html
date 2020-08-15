@@ -141,8 +141,8 @@
 
           <section class="post-content">
             <h2 id="题意"><a href="#题意" class="headerlink" title="题意"></a>题意</h2><p>给定四个整数n, a, b, c，求<br>$$\sum_{x=1}^n\lfloor\frac{a\times x+b}{c}\rfloor$$</p>
-<h2 id="做法"><a href="#做法" class="headerlink" title="做法"></a>做法</h2><p>首先，如果$a=p\times c+q$，其中$q=a%c$，那么$p$是可以从下取整符号中提取出来的，答案需要加上$p\times\frac{n(n+1)}{2}$。同理，$b=p\times c+q$时，答案需要加上$p\times n$。</p>
-<p>因此，我们只需考虑$a=a%c$与$b=b%c$即可。接下来是一系列神奇的式子。设$k=\lfloor\frac{a\times n+b}{c}\rfloor$，则</p>
+<h2 id="做法"><a href="#做法" class="headerlink" title="做法"></a>做法</h2><p>首先，如果$a=p\times c+q$，其中$q=a模c$，那么$p$是可以从下取整符号中提取出来的，答案需要加上$p\times\frac{n(n+1)}{2}$。同理，$b=p\times c+q$时，答案需要加上$p\times n$。</p>
+<p>因此，我们只需考虑$a=a模c$与$b=b模c$即可。接下来是一系列神奇的式子。设$k=\lfloor\frac{a\times n+b}{c}\rfloor$，则</p>
 <p>$$<br>\sum_{x=1}^n\lfloor\frac{a\times x+b}{c}\rfloor<br>$$<br>$$<br>=<br>\sum_{x=1}^n\sum_{i=1}^k\mathbf{1}(i\le\lfloor\frac{a\times x+b}{c}\rfloor)<br>$$<br>$$<br>=<br>\sum_{i=1}^k\sum_{x=1}^n\mathbf{1}(x\ge\lceil\frac{i\times c-b}{a}\rceil)<br>$$<br>$$<br>=\sum_{i=1}^k(n-\lfloor\frac{i\times c - b - 1}{a}\rfloor)<br>$$</p>
 <p>于是，$a$和$c$交换了位置，可以递归调用该函数。</p>
 <p>代码如下：</p>
