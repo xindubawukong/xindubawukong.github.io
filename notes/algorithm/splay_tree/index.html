@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+          <head><meta name="generator" content="Hexo 3.9.0">
+        <meta charset="utf-8">
+            
+            <title>
+                Splay | xindubawukong&#39;s blog
+            </title>
+            <!-- Added by dxy -->
+            <meta name="google-site-verification" content="DlCxDt1-Nu99LNLZIgBqdKf9RIJoxAxxUklEydSefKA">
+            <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+            <script type="text/x-mathjax-config">
+                MathJax.Hub.Config({
+                    tex2jax: {
+                    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                    inlineMath: [['$','$']]
+                    }
+                });
+            </script>
+            <!-- Added by dxy -->
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+            <meta name="theme-color" content="#4184f3">
+            
+            
+            <link href="/favicon.ico" rel="icon">
+            
+
+            <link rel="stylesheet" href="/css/highlight.light.css">
+            <link rel="stylesheet" href="/css/prism-customize.css">
+            <link rel="stylesheet" href="/css/nav-icon.css">
+            <link rel="stylesheet" href="/css/waves.min.css">
+            <link rel="stylesheet" href="/css/jquery.tocify.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/nav-indicator.css">
+            
+  
+  <!-- 百度统计 -->
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?77c0e7aa2843c3d417a40d9367fae72b";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+  
+
+  
+  <!-- 谷歌统计 -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-145602629-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  
+            
+        
+    </head>
+
+    <body>
+        <header>
+            <!-- cover image or sth. -->
+        </header>
+        <div id="main" class="m-scene">
+            
+<div class="nav-wrapper">
+
+    <div class="container">
+        <nav>
+            <div class="logo wave">
+                <a href="/" id="logo">
+                    xindubawukong&#39;s blog
+                </a>
+            </div>
+            <div class="nav-toggle-icon" >
+                <div class="material-hamburger">
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                </div>
+            </div>
+            <div class="menu-wrapper">
+                <div class="nav-indicator">
+                </div>
+                <ul class="menus">
+                    
+                     
+                        <li>
+                            <a class="wave " href="/">
+                                Home
+                            </a>
+                        </li>
+                     
+                        <li>
+                            <a class="wave " href="/archives">
+                                Archive
+                            </a>
+                        </li>
+                     
+                        <li>
+                            <a class="wave " href="/about">
+                                About
+                            </a>
+                        </li>
+                     
+                    
+                   
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+            <div class="container content">
+                <div class="scene_element scene_element--fadein">
+                    <div class="row">
+    <div class="main">
+        <article>
+            <h1>
+                Splay 
+            </h1>
+            <small>2021/5/8</small>
+            <p><a href="https://en.wikipedia.org/wiki/Splay_tree" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Splay_tree</a></p>
+<p>模板题：<a href="https://darkbzoj.tk/problem/3224" target="_blank" rel="noopener">https://darkbzoj.tk/problem/3224</a></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TreeNode</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    <span class="keyword">int</span> num;</span><br><span class="line">    <span class="keyword">int</span> size;</span><br><span class="line">    TreeNode *lch, *rch, *fa;</span><br><span class="line">    </span><br><span class="line">    TreeNode() &#123;</span><br><span class="line">        val = <span class="number">0</span>;</span><br><span class="line">        num = size = <span class="number">1</span>;</span><br><span class="line">        lch = rch = fa = <span class="literal">NULL</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">update</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        size = num;</span><br><span class="line">        <span class="keyword">if</span> (lch) size += lch-&gt;size;</span><br><span class="line">        <span class="keyword">if</span> (rch) size += rch-&gt;size;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SplayTree</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    </span><br><span class="line">    TreeNode* root = <span class="literal">NULL</span>;</span><br><span class="line">    </span><br><span class="line">    SplayTree() &#123;&#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">zig</span><span class="params">(TreeNode* t)</span> </span>&#123;</span><br><span class="line">        TreeNode* y = t-&gt;fa;</span><br><span class="line">        t-&gt;fa = y-&gt;fa;</span><br><span class="line">        <span class="keyword">if</span> (y-&gt;fa) &#123;</span><br><span class="line">            <span class="keyword">if</span> (y == y-&gt;fa-&gt;lch) y-&gt;fa-&gt;lch = t;</span><br><span class="line">            <span class="keyword">else</span> y-&gt;fa-&gt;rch = t;</span><br><span class="line">        &#125;</span><br><span class="line">        y-&gt;lch = t-&gt;rch;</span><br><span class="line">        <span class="keyword">if</span> (t-&gt;rch) t-&gt;rch-&gt;fa = y;</span><br><span class="line">        y-&gt;fa = t;</span><br><span class="line">        t-&gt;rch = y;</span><br><span class="line">        y-&gt;update();</span><br><span class="line">        t-&gt;update();</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">zag</span><span class="params">(TreeNode* t)</span> </span>&#123;</span><br><span class="line">        TreeNode* y = t-&gt;fa;</span><br><span class="line">        t-&gt;fa = y-&gt;fa;</span><br><span class="line">        <span class="keyword">if</span> (y-&gt;fa) &#123;</span><br><span class="line">            <span class="keyword">if</span> (y == y-&gt;fa-&gt;lch) y-&gt;fa-&gt;lch = t;</span><br><span class="line">            <span class="keyword">else</span> y-&gt;fa-&gt;rch = t;</span><br><span class="line">        &#125;</span><br><span class="line">        y-&gt;rch = t-&gt;lch;</span><br><span class="line">        <span class="keyword">if</span> (t-&gt;lch) t-&gt;lch-&gt;fa = y;</span><br><span class="line">        y-&gt;fa = t;</span><br><span class="line">        t-&gt;lch = y;</span><br><span class="line">        y-&gt;update();</span><br><span class="line">        t-&gt;update();</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">splay</span><span class="params">(TreeNode* t, TreeNode* p)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">while</span> (t-&gt;fa != p) &#123;</span><br><span class="line">            TreeNode* y = t-&gt;fa;</span><br><span class="line">            <span class="keyword">if</span> (y-&gt;fa == p) &#123;</span><br><span class="line">                <span class="keyword">if</span> (t == y-&gt;lch) zig(t);</span><br><span class="line">                <span class="keyword">else</span> zag(t);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">if</span> (y == y-&gt;fa-&gt;lch) &#123;</span><br><span class="line">                    <span class="keyword">if</span> (t == y-&gt;lch) zig(y), zig(t);</span><br><span class="line">                    <span class="keyword">else</span> zag(t), zig(t);</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span> &#123;</span><br><span class="line">                    <span class="keyword">if</span> (t == y-&gt;rch) zag(y), zag(t);</span><br><span class="line">                    <span class="keyword">else</span> zig(t), zag(t);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (!p) root = t;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">insert</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        TreeNode* t = root;</span><br><span class="line">        TreeNode* p = <span class="literal">NULL</span>;</span><br><span class="line">        <span class="keyword">while</span> (t) &#123;</span><br><span class="line">            t-&gt;size++;</span><br><span class="line">            p = t;</span><br><span class="line">            <span class="keyword">if</span> (x == t-&gt;val) <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (x &lt; t-&gt;val) t = t-&gt;lch;</span><br><span class="line">            <span class="keyword">else</span> t = t-&gt;rch;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (t) &#123;</span><br><span class="line">            t-&gt;num++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> &#123;</span><br><span class="line">            t = <span class="keyword">new</span> TreeNode();</span><br><span class="line">            t-&gt;val = x;</span><br><span class="line">            t-&gt;fa = p;</span><br><span class="line">            <span class="keyword">if</span> (p) &#123;</span><br><span class="line">                <span class="keyword">if</span> (x &lt; p-&gt;val) p-&gt;lch = t;</span><br><span class="line">                <span class="keyword">else</span> p-&gt;rch = t;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> root = t;</span><br><span class="line">        &#125;</span><br><span class="line">        splay(t, <span class="literal">NULL</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function">TreeNode* <span class="title">find</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        TreeNode* t = root;</span><br><span class="line">        <span class="keyword">while</span> (t) &#123;</span><br><span class="line">            <span class="keyword">if</span> (x == t-&gt;val) <span class="keyword">return</span> t;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (x &lt; t-&gt;val) t = t-&gt;lch;</span><br><span class="line">            <span class="keyword">else</span> t = t-&gt;rch;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function">TreeNode* <span class="title">get_max_node</span><span class="params">(TreeNode* t)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">while</span> (t-&gt;rch) t = t-&gt;rch;</span><br><span class="line">        <span class="keyword">return</span> t;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">erase</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        TreeNode* t = find(x);</span><br><span class="line">        splay(t, <span class="literal">NULL</span>);</span><br><span class="line">        t-&gt;num--;</span><br><span class="line">        t-&gt;update();</span><br><span class="line">        <span class="keyword">if</span> (t-&gt;num) <span class="keyword">return</span>;</span><br><span class="line">        <span class="keyword">if</span> (!t-&gt;lch) &#123;</span><br><span class="line">            root = t-&gt;rch;</span><br><span class="line">            <span class="keyword">if</span> (root) root-&gt;fa = <span class="literal">NULL</span>;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (!t-&gt;rch) &#123;</span><br><span class="line">            root = t-&gt;lch;</span><br><span class="line">            <span class="keyword">if</span> (root) root-&gt;fa = <span class="literal">NULL</span>;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        TreeNode* y = get_max_node(t-&gt;lch);</span><br><span class="line">        splay(y, t);</span><br><span class="line">        y-&gt;rch = t-&gt;rch;</span><br><span class="line">        t-&gt;rch-&gt;fa = y;</span><br><span class="line">        y-&gt;fa = <span class="literal">NULL</span>;</span><br><span class="line">        y-&gt;update();</span><br><span class="line">        root = y;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">get_rank</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        TreeNode* t = root;</span><br><span class="line">        TreeNode* tmp = t;</span><br><span class="line">        <span class="keyword">int</span> res = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (t) &#123;</span><br><span class="line">            tmp = t;</span><br><span class="line">            <span class="keyword">if</span> (x &lt; t-&gt;val) t = t-&gt;lch;</span><br><span class="line">            <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">int</span> left = t-&gt;lch ? t-&gt;lch-&gt;size : <span class="number">0</span>;</span><br><span class="line">                <span class="keyword">if</span> (x == t-&gt;val) &#123;</span><br><span class="line">                    res += left + <span class="number">1</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span> &#123;</span><br><span class="line">                    res += left + t-&gt;num;</span><br><span class="line">                    t = t-&gt;rch;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        splay(tmp, <span class="literal">NULL</span>);</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">get_kth</span><span class="params">(<span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">        TreeNode* t = root;</span><br><span class="line">        TreeNode* tmp = t;</span><br><span class="line">        <span class="keyword">while</span> (t) &#123;</span><br><span class="line">            tmp = t;</span><br><span class="line">            <span class="keyword">int</span> left = t-&gt;lch ? t-&gt;lch-&gt;size : <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">if</span> (k &lt;= left) t = t-&gt;lch;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (k &lt;= left + t-&gt;num) <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">else</span> &#123;</span><br><span class="line">                k -= left + t-&gt;num;</span><br><span class="line">                t = t-&gt;rch;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        splay(tmp, <span class="literal">NULL</span>);</span><br><span class="line">        <span class="keyword">return</span> tmp-&gt;val;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function">TreeNode* <span class="title">get_pred_node</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        TreeNode* t = root;</span><br><span class="line">        TreeNode* res = <span class="literal">NULL</span>;</span><br><span class="line">        <span class="keyword">while</span> (t) &#123;</span><br><span class="line">            <span class="keyword">if</span> (x &lt;= t-&gt;val) t = t-&gt;lch;</span><br><span class="line">            <span class="keyword">else</span> &#123;</span><br><span class="line">                res = t;</span><br><span class="line">                t = t-&gt;rch;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">get_pred</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        TreeNode* t = get_pred_node(x);</span><br><span class="line">        splay(t, <span class="literal">NULL</span>);</span><br><span class="line">        <span class="keyword">return</span> t-&gt;val;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function">TreeNode* <span class="title">get_succ_node</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        TreeNode* t = root;</span><br><span class="line">        TreeNode* res = <span class="literal">NULL</span>;</span><br><span class="line">        <span class="keyword">while</span> (t) &#123;</span><br><span class="line">            <span class="keyword">if</span> (x &gt;= t-&gt;val) t = t-&gt;rch;</span><br><span class="line">            <span class="keyword">else</span> &#123;</span><br><span class="line">                res = t;</span><br><span class="line">                t = t-&gt;lch;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">get_succ</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        TreeNode* t = get_succ_node(x);</span><br><span class="line">        splay(t, <span class="literal">NULL</span>);</span><br><span class="line">        <span class="keyword">return</span> t-&gt;val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    freopen(<span class="string">"/Users/xdbwk/Desktop/ttt/temp.txt"</span>, <span class="string">"r"</span>, <span class="built_in">stdin</span>);</span><br><span class="line">    SplayTree* tree = <span class="keyword">new</span> SplayTree();</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n;</span><br><span class="line">    <span class="keyword">while</span> (n--) &#123;</span><br><span class="line">        <span class="keyword">int</span> opt, x;</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; opt &gt;&gt; x;</span><br><span class="line">        <span class="keyword">if</span> (opt == <span class="number">1</span>) tree-&gt;insert(x);</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (opt == <span class="number">2</span>) tree-&gt;erase(x);</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (opt == <span class="number">3</span>) <span class="built_in">cout</span> &lt;&lt; tree-&gt;get_rank(x) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (opt == <span class="number">4</span>) <span class="built_in">cout</span> &lt;&lt; tree-&gt;get_kth(x) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (opt == <span class="number">5</span>) <span class="built_in">cout</span> &lt;&lt; tree-&gt;get_pred(x) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (opt == <span class="number">6</span>) <span class="built_in">cout</span> &lt;&lt; tree-&gt;get_succ(x) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        </article>
+        <div class="comment-section">
+  
+    
+
+
+</div>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+    <!-- added by dxy -->
+        <script src="https://utteranc.es/client.js"
+        repo="xindubawukong/xindubawukong.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
+    <!-- added by dxy -->
+    <!---
+    <p>由<a href="http://hexo.io/" target="_blank">Hexo</a>强力驱动，搭载<a href="https://github.com/wayou/hexo-theme-gstyle">gstyle</a>主题</p>
+    -->
+    <p>
+        &copy; 2021 xindubawukong
+    </p>
+</footer>
+<script src="/lib/jquery.js"></script>
+<script src="/lib/waves.js"></script>
+<script src="/lib/jquery-ui.js"></script>
+<script src="/lib/jquery.tocify.js"></script>
+<script src="/js/main.js"></script>
+
+    </body>
+</html>
